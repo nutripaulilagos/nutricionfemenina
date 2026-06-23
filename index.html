@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nutricionista Paulina Lagos Rojas | Nutrición Femenina</title>
+
+<meta name="description" content="Nutricionista Paulina Lagos Rojas. Nutrición femenina, lactancia materna, alimentación complementaria y BLW, nutrición clínica adulto. Atención online.">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --lavanda:#B79AE0;
+    --lavanda-claro:#F3EEFC;
+    --lavanda-muy-claro:#FCFAFF;
+    --texto:#5F5470;
+    --texto-claro:#7D7290;
+    --blanco:#ffffff;
+    --sombra:0 10px 30px rgba(0,0,0,.08);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--lavanda-muy-claro);
+    color:var(--texto);
+    line-height:1.7;
+}
+
+/* NAV */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,.05);
+}
+
+.nav-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 20px;
+}
+
+.logo-text{
+    font-weight:600;
+    color:var(--lavanda);
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--texto);
+    font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+    padding:100px 20px;
+    text-align:center;
+    background:linear-gradient(180deg,var(--lavanda-claro),white);
+}
+
+.hero-logo{
+    width:180px;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+}
+
+.especialidades{
+    margin-top:20px;
+    font-weight:600;
+    color:var(--lavanda);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    background:var(--lavanda);
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:40px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* SECCIONES */
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+h2{
+    text-align:center;
+    font-family:'Playfair Display',serif;
+    font-size:2.2rem;
+    margin-bottom:40px;
+}
+
+.sobre{
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+    align-items:center;
+}
+
+.sobre img{
+    width:280px;
+    border-radius:20px;
+    box-shadow:var(--sombra);
+}
+
+.sobre-texto{
+    flex:1;
+    min-width:280px;
+}
+
+/* SERVICIOS */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:var(--sombra);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:var(--lavanda);
+}
+
+/* RESERVAS */
+
+.reserva{
+    text-align:center;
+    background:var(--lavanda-claro);
+    border-radius:30px;
+    padding:50px 30px;
+}
+
+/* CONTACTO */
+
+.contacto{
+    text-align:center;
+}
+
+.contacto a{
+    color:var(--lavanda);
+    text-decoration:none;
+    font-weight:600;
+}
+
+footer{
+    background:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    box-shadow:0 4px 15px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.2rem;
+}
+
+nav ul{
+    gap:10px;
+    font-size:.9rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="nav-container">
+
+<div class="logo-text">
+Paulina Lagos Rojas
+</div>
+
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#sobre">Sobre mí</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+
+</div>
+</nav>
+
+<section class="hero" id="inicio">
+
+<!-- Reemplaza logo.png por tu logo -->
+<img src="logo.png" alt="Logo Nutricionista Paulina Lagos Rojas" class="hero-logo">
+
+<h1>Nutricionista Paulina Lagos Rojas</h1>
+
+<p>
+Nutrición basada en evidencia para acompañarte en cada etapa de tu vida, promoviendo hábitos sostenibles, bienestar y salud integral.
+</p>
+
+<div class="especialidades">
+Nutrición Femenina • Lactancia Materna • Alimentación Complementaria y BLW • Nutrición Clínica Adulto
+</div>
+
+<a href="https://nutricionfemenina.simplybook.me/" class="btn">
+Reservar Consulta
+</a>
+
+</section>
+
+<section id="sobre">
+
+<div class="container">
+
+<h2>Sobre mí</h2>
+
+<div class="sobre">
+
+<!-- Reemplaza paulina.jpg por tu fotografía -->
+<img src="paulina.jpg" alt="Nutricionista Paulina Lagos Rojas">
+
+<div class="sobre-texto">
+
+<p>
+Hola, soy Paulina Lagos Rojas, nutricionista enfocada en salud femenina, lactancia materna, alimentación complementaria y nutrición clínica del adulto.
+</p>
+
+<br>
+
+<p>
+Creo que la salud de la mujer merece un abordaje específico y basado en evidencia. Muchas veces se aplican recomendaciones generales sin considerar que las mujeres atravesamos distintas etapas fisiológicas y hormonales que influyen directamente en nuestra salud y bienestar.
+</p>
+
+<br>
+
+<p>
+Además, considero que la lactancia materna y la nutrición durante los primeros años de vida son fundamentales para promover la salud futura, por lo que acompaño a madres y familias en procesos de lactancia y alimentación complementaria.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="servicios">
+
+<div class="container">
+
+<h2>Servicios</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Nutrición Femenina</h3>
+<p>
+Salud hormonal, ciclo menstrual, fertilidad, SOMP, resistencia a la insulina, climaterio y menopausia.
+</p>
+</div>
+
+<div class="card">
+<h3>Lactancia Materna</h3>
+<p>
+Asesoría y talleres para acompañar el proceso de lactancia desde una mirada basada en evidencia.
+</p>
+</div>
+
+<div class="card">
+<h3>Alimentación Complementaria y BLW</h3>
+<p>
+Acompañamiento en la introducción de alimentos y resolución de dudas familiares.
+</p>
+</div>
+
+<div class="card">
+<h3>Nutrición Clínica Adulto</h3>
+<p>
+Atención personalizada para mejorar la salud metabólica y prevenir enfermedades crónicas.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="reserva">
+
+<h2>Reserva tu Consulta</h2>
+
+<p>
+Agenda tu atención nutricional online de manera rápida y sencilla.
+</p>
+
+<a href="https://nutricionfemenina.simplybook.me/" class="btn">
+Reservar Hora Online
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<div class="container contacto">
+
+<h2>Contacto</h2>
+
+<p>
+<strong>WhatsApp</strong><br>
++56 9 3929 1134
+</p>
+
+<br>
+
+<p>
+<strong>Instagram</strong><br>
+@Nutri.paulilagos
+</p>
+
+<br>
+
+<p>
+<strong>Agenda Online</strong><br>
+https://nutricionfemenina.simplybook.me/
+</p>
+
+<p style="margin-top:30px;">
+Valores y disponibilidad de horas vía WhatsApp.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+Nutricionista Paulina Lagos Rojas<br>
+
+Nutrición Femenina • Lactancia Materna • Alimentación Complementaria y BLW • Nutrición Clínica Adulto
+
+<br><br>
+
+© 2026 Todos los derechos reservados
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/56939291134?text=Hola%20Paulina,%20me%20gustaría%20agendar%20una%20consulta">
+💬
+</a>
+
+</body>
+</html>
