@@ -1,0 +1,197 @@
+/* ==========================
+   ESTILOS GENERALES
+========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F8F5FC;
+    color:#444;
+    line-height:1.7;
+}
+.container,
+.contenedor{
+    width:min(1100px,90%);
+    margin:auto;
+}
+/* ==========================
+   HEADER
+========================== */
+.hero{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(14px);
+    z-index:1000;
+    box-shadow:0 2px 12px rgba(0,0,0,.06);
+}
+.hero .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 0;
+}
+.logo{
+    width:140px;
+}
+nav{
+    display:flex;
+    gap:24px;
+}
+nav a{
+    text-decoration:none;
+    color:#5B4B8A;
+    font-weight:500;
+    transition:.3s;
+}
+nav a:hover{
+    color:#9D7BDB;
+}
+/* ==========================
+   BANNER
+========================== */
+.banner{
+    min-height:100vh;
+    background:linear-gradient(135deg,#E9DDF8,#FFFFFF);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 60px;
+}
+.overlay{
+    max-width:750px;
+}
+.banner h1{
+    font-size:clamp(2.3rem,5vw,4rem);
+    color:#5B4B8A;
+    margin-bottom:20px;
+}
+.banner p{
+    font-size:1.15rem;
+    margin-bottom:40px;
+    color:#666;
+}
+/* ==========================
+   BOTONES
+========================== */
+.boton{
+    display:inline-block;
+    padding:16px 36px;
+    border-radius:50px;
+    text-decoration:none;
+    background:#8F6DD9;
+    color:white;
+    font-weight:600;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(143,109,217,.25);
+}
+.boton:hover{
+    transform:translateY(-3px);
+    background:#7554C9;
+}
+/* ==========================
+   SECCIONES
+========================== */
+.seccion{
+    padding:100px 0;
+}
+.seccion h2{
+    text-align:center;
+    color:#5B4B8A;
+    margin-bottom:50px;
+    font-size:2.2rem;
+}
+.gris{
+    background:#F3F1F8;
+}
+/* ==========================
+   TARJETAS
+========================== */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:28px;
+}
+.card{
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(15px);
+    border-radius:24px;
+    padding:35px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+.card:hover{
+    transform:translateY(-8px);
+}
+.card h3{
+    color:#6D56B3;
+    margin-bottom:15px;
+}
+.card span{
+    display:block;
+    margin-top:15px;
+    color:#F6B800;
+    font-size:1.2rem;
+}
+/* ==========================
+   CONTACTO
+========================== */
+.contacto{
+    padding:120px 0;
+    text-align:center;
+    background:linear-gradient(135deg,#E9DDF8,#FFFFFF);
+}
+.contacto h2{
+    color:#5B4B8A;
+    margin-bottom:20px;
+}
+.contacto p{
+    margin-bottom:35px;
+}
+/* ==========================
+   FOOTER
+========================== */
+footer{
+    background:#5B4B8A;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+/* ==========================
+   RESPONSIVE
+========================== */
+@media(max-width:768px){
+.hero .container{
+    flex-direction:column;
+    gap:15px;
+}
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+.logo{
+    width:120px;
+}
+.banner{
+    padding-top:180px;
+}
+.banner h1{
+    font-size:2.2rem;
+}
+.seccion{
+    padding:70px 0;
+}
+.card{
+    padding:28px;
+}
+}
