@@ -40,7 +40,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 gap:16px;
-padding:0 0 18px;
+padding:12px 0 18px;
 background:#FFFFFF;
 z-index:1000;
 }
@@ -48,14 +48,15 @@ z-index:1000;
 width:100%;
 display:flex;
 justify-content:center;
+align-items:center;
 background:#FFFFFF;
-overflow:hidden;
+padding:0 16px;
 }
 .logo img{
 display:block;
-width:100%;
-max-width:1200px;
+width:min(92vw,560px);
 height:auto;
+max-width:100%;
 border-radius:0;
 object-fit:contain;
 }
@@ -90,12 +91,16 @@ transform:translateY(-3px);
    HERO
 ========================= */
 .hero{
-min-height:auto;
+min-height:100vh;
 display:grid;
 grid-template-columns:1fr;
 align-items:center;
 padding:90px 8% 80px;
-gap:40px;
+gap:70px;
+justify-items:center;
+}
+.hero-texto{
+max-width:760px;
 text-align:center;
 }
 .hero-texto span{
@@ -331,9 +336,15 @@ animation:pulse 2s infinite;
 transform:scale(1.12);
 }
 @keyframes pulse{
-0%{transform:scale(1);}
-50%{transform:scale(1.08);}
-100%{transform:scale(1);}
+0%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.08);
+}
+100%{
+transform:scale(1);
+}
 }
 /* =========================
    RESPONSIVE
@@ -348,15 +359,16 @@ grid-template-columns:repeat(2,minmax(0,1fr));
 }
 }
 @media(max-width:900px){
-.logo img{
-width:100%;
-max-width:100%;
-}
 .hero{
-padding:55px 6% 70px;
+text-align:center;
+padding-top:70px;
 }
 .hero-texto h1{
 font-size:2.3rem;
+}
+header{
+flex-direction:column;
+gap:15px;
 }
 nav{
 flex-wrap:wrap;
@@ -365,6 +377,9 @@ gap:18px;
 }
 .agenda{
 display:none;
+}
+.logo img{
+width:min(90vw,420px);
 }
 .blog-grid{
 grid-template-columns:1fr;
@@ -381,6 +396,12 @@ font-size:30px;
 @media(max-width:520px){
 section{
 padding:90px 6%;
+}
+.logo{
+padding:0 10px;
+}
+.logo img{
+width:min(94vw,360px);
 }
 h2{
 font-size:2rem;
