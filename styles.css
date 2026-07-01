@@ -38,14 +38,17 @@ width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 8%;
+padding:14px 8%;
 background:rgba(255,255,255,.82);
 backdrop-filter:blur(20px);
 z-index:1000;
 box-shadow:0 5px 25px rgba(0,0,0,.05);
 }
 .logo img{
-height:65px;
+display:block;
+width:170px;
+height:auto;
+border-radius:12px;
 }
 nav{
 display:flex;
@@ -383,7 +386,8 @@ gap:18px;
 display:none;
 }
 .logo img{
-height:52px;
+width:145px;
+height:auto;
 }
 .blog-grid{
 grid-template-columns:1fr;
