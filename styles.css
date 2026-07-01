@@ -207,6 +207,31 @@ transition:.35s;
 transform:translateY(-10px);
 }
 /* =========================
+   SERVICIOS
+========================= */
+.servicios{
+background:#FFFFFF;
+}
+.servicios-grid{
+align-items:stretch;
+}
+.servicio-card{
+display:flex;
+flex-direction:column;
+min-height:315px;
+border:1px solid rgba(139,95,191,.12);
+}
+.servicio-card h3{
+font-size:1.35rem;
+line-height:1.28;
+margin-bottom:16px;
+color:var(--text);
+}
+.servicio-card p{
+color:var(--text-light);
+line-height:1.75;
+}
+/* =========================
    BLOG
 ========================= */
 .blog{
@@ -379,7 +404,8 @@ padding:90px 6%;
 h2{
 font-size:2rem;
 }
-.blog-card{
+.blog-card,
+.servicio-card{
 padding:28px;
 }
 }
