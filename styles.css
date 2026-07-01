@@ -49,13 +49,15 @@ width:100%;
 display:flex;
 justify-content:center;
 background:#FFFFFF;
+overflow:hidden;
 }
 .logo img{
 display:block;
 width:100%;
+max-width:1200px;
 height:auto;
-max-width:1280px;
 border-radius:0;
+object-fit:contain;
 }
 nav{
 display:flex;
@@ -88,12 +90,13 @@ transform:translateY(-3px);
    HERO
 ========================= */
 .hero{
-min-height:100vh;
+min-height:auto;
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns:1fr;
 align-items:center;
 padding:90px 8% 80px;
-gap:70px;
+gap:40px;
+text-align:center;
 }
 .hero-texto span{
 display:inline-block;
@@ -118,6 +121,7 @@ margin-bottom:40px;
 display:flex;
 gap:18px;
 flex-wrap:wrap;
+justify-content:center;
 }
 .btn-principal{
 background:var(--primary);
@@ -147,23 +151,7 @@ color:white;
    FOTO
 ========================= */
 .hero-imagen{
-display:flex;
-justify-content:center;
-position:relative;
-}
-.hero-imagen::before{
-content:"";
-position:absolute;
-width:520px;
-height:520px;
-background:radial-gradient(circle,#DDF3FF,transparent);
-border-radius:50%;
-z-index:-1;
-}
-.hero-imagen img{
-width:420px;
-border-radius:35px;
-box-shadow:0 30px 70px rgba(83,155,196,.18);
+display:none;
 }
 /* =========================
    SECCIONES
@@ -343,15 +331,9 @@ animation:pulse 2s infinite;
 transform:scale(1.12);
 }
 @keyframes pulse{
-0%{
-transform:scale(1);
-}
-50%{
-transform:scale(1.08);
-}
-100%{
-transform:scale(1);
-}
+0%{transform:scale(1);}
+50%{transform:scale(1.08);}
+100%{transform:scale(1);}
 }
 /* =========================
    RESPONSIVE
@@ -366,26 +348,15 @@ grid-template-columns:repeat(2,minmax(0,1fr));
 }
 }
 @media(max-width:900px){
+.logo img{
+width:100%;
+max-width:100%;
+}
 .hero{
-grid-template-columns:1fr;
-text-align:center;
-padding-top:70px;
-}
-.hero-imagen{
-order:-1;
-}
-.hero-imagen img{
-width:280px;
+padding:55px 6% 70px;
 }
 .hero-texto h1{
 font-size:2.3rem;
-}
-.hero-botones{
-justify-content:center;
-}
-header{
-flex-direction:column;
-gap:15px;
 }
 nav{
 flex-wrap:wrap;
@@ -394,11 +365,6 @@ gap:18px;
 }
 .agenda{
 display:none;
-}
-.logo img{
-width:100%;
-max-width:100%;
-height:auto;
 }
 .blog-grid{
 grid-template-columns:1fr;
