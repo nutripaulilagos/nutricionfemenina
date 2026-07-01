@@ -31,26 +31,38 @@ color:var(--text);
    HEADER
 ========================= */
 header{
-position:fixed;
+position:relative;
 top:0;
 left:0;
 width:100%;
 display:flex;
-justify-content:space-between;
+flex-direction:column;
+justify-content:center;
 align-items:center;
-padding:14px 8%;
+gap:16px;
+padding:0 0 18px;
 background:#FFFFFF;
 z-index:1000;
 }
+.logo{
+width:100%;
+display:flex;
+justify-content:center;
+background:#FFFFFF;
+}
 .logo img{
 display:block;
-width:170px;
+width:100%;
 height:auto;
+max-width:1280px;
 border-radius:0;
 }
 nav{
 display:flex;
+justify-content:center;
+flex-wrap:wrap;
 gap:35px;
+padding:0 8%;
 }
 nav a{
 text-decoration:none;
@@ -80,7 +92,7 @@ min-height:100vh;
 display:grid;
 grid-template-columns:1fr 1fr;
 align-items:center;
-padding:150px 8% 80px;
+padding:90px 8% 80px;
 gap:70px;
 }
 .hero-texto span{
@@ -357,7 +369,7 @@ grid-template-columns:repeat(2,minmax(0,1fr));
 .hero{
 grid-template-columns:1fr;
 text-align:center;
-padding-top:170px;
+padding-top:70px;
 }
 .hero-imagen{
 order:-1;
@@ -384,7 +396,8 @@ gap:18px;
 display:none;
 }
 .logo img{
-width:145px;
+width:100%;
+max-width:100%;
 height:auto;
 }
 .blog-grid{
