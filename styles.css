@@ -164,6 +164,29 @@ text-align:center;
 margin-bottom:60px;
 color:var(--primary);
 }
+.section-intro{
+max-width:780px;
+margin:0 auto 55px;
+text-align:center;
+}
+.section-intro span{
+display:inline-block;
+padding:8px 18px;
+background:var(--primary-light);
+border-radius:30px;
+color:var(--primary);
+margin-bottom:18px;
+font-size:.95rem;
+font-weight:500;
+}
+.section-intro h2{
+margin-bottom:20px;
+}
+.section-intro p{
+color:var(--text-light);
+font-size:1.08rem;
+line-height:1.8;
+}
 /* =========================
    TARJETAS
 ========================= */
@@ -182,6 +205,79 @@ transition:.35s;
 }
 .card:hover{
 transform:translateY(-10px);
+}
+/* =========================
+   BLOG
+========================= */
+.blog{
+background:linear-gradient(180deg,#FFFFFF,#F8F5FC);
+}
+.blog-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:28px;
+}
+.blog-card{
+background:rgba(255,255,255,.82);
+backdrop-filter:blur(20px);
+padding:34px;
+border-radius:var(--radius);
+box-shadow:var(--shadow);
+border:1px solid rgba(139,95,191,.12);
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+min-height:340px;
+transition:.35s;
+}
+.blog-card:hover{
+transform:translateY(-10px);
+}
+.blog-destacado{
+grid-column:span 2;
+background:linear-gradient(135deg,#FFFFFF,#EDE4F8);
+}
+.blog-icono{
+width:54px;
+height:54px;
+border-radius:50%;
+background:var(--primary-light);
+color:var(--primary);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:24px;
+margin-bottom:20px;
+}
+.blog-categoria{
+font-size:.82rem;
+font-weight:600;
+color:var(--primary);
+margin-bottom:12px;
+text-transform:uppercase;
+letter-spacing:.08em;
+}
+.blog-card h3{
+font-size:1.45rem;
+line-height:1.25;
+margin-bottom:16px;
+color:var(--text);
+}
+.blog-card p{
+color:var(--text-light);
+line-height:1.75;
+margin-bottom:24px;
+}
+.blog-card a{
+margin-top:auto;
+color:var(--primary);
+font-weight:600;
+text-decoration:none;
+border-bottom:2px solid var(--primary-light);
+padding-bottom:4px;
+}
+.blog-card a:hover{
+border-color:var(--primary);
 }
 /* =========================
    BOTÓN WHATSAPP
@@ -222,6 +318,15 @@ transform:scale(1);
 /* =========================
    RESPONSIVE
 ========================= */
+@media(max-width:1100px){
+nav{
+gap:18px;
+font-size:.92rem;
+}
+.blog-grid{
+grid-template-columns:repeat(2,minmax(0,1fr));
+}
+}
 @media(max-width:900px){
 .hero{
 grid-template-columns:1fr;
@@ -255,9 +360,26 @@ display:none;
 .logo img{
 height:52px;
 }
+.blog-grid{
+grid-template-columns:1fr;
+}
+.blog-destacado{
+grid-column:auto;
+}
 .whatsapp{
 width:60px;
 height:60px;
 font-size:30px;
+}
+}
+@media(max-width:520px){
+section{
+padding:90px 6%;
+}
+h2{
+font-size:2rem;
+}
+.blog-card{
+padding:28px;
 }
 }
