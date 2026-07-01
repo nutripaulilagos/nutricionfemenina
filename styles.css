@@ -2,13 +2,13 @@
    PALETA DE COLORES
 ========================= */
 :root{
---primary:#8B5FBF;
---primary-light:#EDE4F8;
---secondary:#F8F5FC;
+--primary:#74BDE8;
+--primary-light:#EAF7FE;
+--secondary:#F6FBFF;
 --white:#FFFFFF;
---text:#3D3D3D;
---text-light:#6C6C6C;
---shadow:0 15px 40px rgba(0,0,0,.08);
+--text:#355263;
+--text-light:#6F8794;
+--shadow:0 15px 40px rgba(83,155,196,.14);
 --radius:24px;
 }
 /* =========================
@@ -24,7 +24,7 @@ scroll-behavior:smooth;
 }
 body{
 font-family:'Poppins',sans-serif;
-background:linear-gradient(180deg,#FFFFFF,#FAF7FD);
+background:linear-gradient(180deg,#FFFFFF,#F6FBFF);
 color:var(--text);
 }
 /* =========================
@@ -47,7 +47,6 @@ display:block;
 width:170px;
 height:auto;
 border-radius:0;
-filter:brightness(1.12) contrast(1.12);
 }
 nav{
 display:flex;
@@ -145,14 +144,14 @@ content:"";
 position:absolute;
 width:520px;
 height:520px;
-background:radial-gradient(circle,#E9DDF8,transparent);
+background:radial-gradient(circle,#DDF3FF,transparent);
 border-radius:50%;
 z-index:-1;
 }
 .hero-imagen img{
 width:420px;
 border-radius:35px;
-box-shadow:0 30px 70px rgba(0,0,0,.12);
+box-shadow:0 30px 70px rgba(83,155,196,.18);
 }
 /* =========================
    SECCIONES
@@ -221,7 +220,7 @@ align-items:stretch;
 display:flex;
 flex-direction:column;
 min-height:315px;
-border:1px solid rgba(139,95,191,.12);
+border:1px solid rgba(116,189,232,.22);
 }
 .servicio-card h3{
 font-size:1.35rem;
@@ -237,7 +236,7 @@ line-height:1.75;
    BLOG
 ========================= */
 .blog{
-background:linear-gradient(180deg,#FFFFFF,#F8F5FC);
+background:linear-gradient(180deg,#FFFFFF,#F6FBFF);
 }
 .blog-grid{
 display:grid;
@@ -250,7 +249,7 @@ backdrop-filter:blur(20px);
 padding:34px;
 border-radius:var(--radius);
 box-shadow:var(--shadow);
-border:1px solid rgba(139,95,191,.12);
+border:1px solid rgba(116,189,232,.22);
 display:flex;
 flex-direction:column;
 align-items:flex-start;
@@ -262,7 +261,7 @@ transform:translateY(-10px);
 }
 .blog-destacado{
 grid-column:span 2;
-background:linear-gradient(135deg,#FFFFFF,#EDE4F8);
+background:linear-gradient(135deg,#FFFFFF,#EAF7FE);
 }
 .blog-icono{
 width:54px;
@@ -307,7 +306,7 @@ padding-bottom:4px;
 border-color:var(--primary);
 }
 /* =========================
-   BOTÓN WHATSAPP
+   BOTON WHATSAPP
 ========================= */
 .whatsapp{
 position:fixed;
