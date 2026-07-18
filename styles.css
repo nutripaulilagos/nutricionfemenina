@@ -201,6 +201,84 @@ section {
   line-height: 1.8;
 }
 
+.sobre {
+  background: #fff;
+}
+
+.sobre-contenido {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: clamp(36px, 7vw, 88px);
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.sobre-presentacion > span {
+  display: inline-flex;
+  margin-bottom: 14px;
+  padding: 8px 15px;
+  border-radius: 999px;
+  color: var(--brand-dark);
+  background: var(--soft);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.sobre-presentacion h2 {
+  margin-bottom: 20px;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.15;
+}
+
+.sobre-presentacion p {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.sobre-destacados {
+  display: grid;
+  gap: 14px;
+}
+
+.sobre-dato {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 15px;
+  align-items: center;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fff, #fbf5fd);
+  box-shadow: 0 10px 24px rgba(68, 43, 79, 0.06);
+}
+
+.sobre-dato i {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: var(--brand-dark);
+  background: var(--soft);
+  font-size: 1.15rem;
+}
+
+.sobre-dato strong,
+.sobre-dato span {
+  display: block;
+}
+
+.sobre-dato strong {
+  margin-bottom: 3px;
+}
+
+.sobre-dato span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .cards,
 .blog-grid {
   display: grid;
@@ -290,9 +368,16 @@ section {
     justify-items: center;
   }
 
-  .hero {
+  .hero,
+  .sobre-contenido {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .sobre-destacados {
+    width: min(100%, 620px);
+    margin: 0 auto;
+    text-align: left;
   }
 
   .hero-texto {
