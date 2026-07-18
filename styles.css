@@ -156,6 +156,8 @@ h1 {
 
 .hero-imagen {
   position: relative;
+  z-index: 0;
+  isolation: isolate;
   justify-self: center;
   width: min(100%, 300px);
 }
@@ -170,6 +172,9 @@ h1 {
 }
 
 .hero-imagen img {
+  position: relative;
+  z-index: 1;
+  display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
