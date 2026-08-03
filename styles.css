@@ -919,3 +919,20 @@ h3,
 #disqus_thread {
   min-height: 180px;
 }
+
+.blog-lector-cuerpo h3 {
+  margin: 2.2rem 0 0.8rem;
+  color: #2d2730;
+  font-size: clamp(1.35rem, 3vw, 1.8rem);
+  line-height: 1.25;
+}
+
+.blog-lector-cuerpo ul {
+  margin: 0 0 1.6rem;
+  padding-left: 1.35rem;
+}
+
+.blog-lector-cuerpo li {
+  margin-bottom: 0.55rem;
+  padding-left: 0.3rem;
+}
