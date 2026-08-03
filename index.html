@@ -166,48 +166,17 @@ Conóceme
 
 <section id="blog" class="blog">
 <div class="section-intro">
-<span>Blog de nutrición</span>
-<h2>Consejos para cuidar tu salud desde la alimentación</h2>
-<p>Encuentra ideas, educación nutricional y recomendaciones prácticas para acompañar tu bienestar hormonal, digestivo y metabólico.</p>
+<span>Revista de nutrición</span>
+<h2>Lecturas para cuidar tu salud</h2>
+<p>Artículos de Paulina Lagos sobre nutrición clínica, salud femenina y hábitos sostenibles, presentados en formato editorial.</p>
 </div>
-<div class="blog-grid">
-<article class="blog-card blog-destacado">
-<div class="blog-icono">
-<i class="fa-solid fa-bowl-food"></i>
+<div id="blog-publicaciones" class="revista-publicaciones" aria-live="polite">
+<p class="blog-error">Cargando publicaciones…</p>
 </div>
-<span class="blog-categoria">Nutrición clínica</span>
-<h3>Cómo armar un plato equilibrado</h3>
-<p>Una guía simple para combinar proteínas, carbohidratos, verduras y grasas saludables en tu rutina diaria.</p>
-<a href="#contacto">Quiero aprender más sobre cómo armar un plato equilibrado</a>
-</article>
-<article class="blog-card">
-<div class="blog-icono">
-<i class="fa-solid fa-seedling"></i>
-</div>
-<span class="blog-categoria">Bienestar hormonal</span>
-<h3>Alimentación y ciclo menstrual</h3>
-<p>Ideas para adaptar tus hábitos alimentarios a las distintas etapas del ciclo y escuchar mejor tu cuerpo.</p>
-<a href="#contacto">Leer más sobre alimentación y ciclo menstrual</a>
-</article>
-<article class="blog-card">
-<div class="blog-icono">
-<i class="fa-solid fa-apple-whole"></i>
-</div>
-<span class="blog-categoria">Hábitos</span>
-<h3>Colaciones prácticas y nutritivas</h3>
-<p>Opciones fáciles para organizar snacks que aporten energía y saciedad durante el día.</p>
-<a href="#contacto">Leer más sobre colaciones prácticas y nutritivas</a>
-</article>
-<article class="blog-card">
-<div class="blog-icono">
-<i class="fa-solid fa-heart-pulse"></i>
-</div>
-<span class="blog-categoria">Salud femenina</span>
-<h3>Hábitos sostenibles antes que dietas extremas</h3>
-<p>Pequeños cambios que puedes mantener en el tiempo para mejorar tu relación con la comida.</p>
-<a href="#contacto">Leer más sobre hábitos sostenibles</a>
-</article>
-</div>
+<dialog id="blog-lector" class="blog-lector" aria-label="Artículo del blog">
+<button class="blog-lector-cerrar" type="button" aria-label="Cerrar artículo">×</button>
+<article class="blog-lector-articulo"></article>
+</dialog>
 </section>
 
 <section id="testimonios" class="testimonios">
@@ -265,6 +234,7 @@ Conóceme
 <a href="https://wa.me/569XXXXXXXX" target="_blank" rel="noopener" class="whatsapp" aria-label="Escribir por WhatsApp">
 <i class="fa-brands fa-whatsapp"></i>
 </a>
+<script src="blog.js" defer></script>
 <script src="script.js" defer></script>
 </body>
 </html>
