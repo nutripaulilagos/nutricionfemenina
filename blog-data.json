@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": "plato-equilibrado",
+      "title": "CÃ³mo armar un plato equilibrado",
+      "category": "NutriciÃ³n clÃ­nica",
+      "excerpt": "Una guÃ­a simple para combinar proteÃ­nas, carbohidratos, verduras y grasas saludables en tu rutina diaria.",
+      "content": "Un plato equilibrado no tiene que ser complicado. Puedes comenzar destinando la mitad del plato a verduras de distintos colores, un cuarto a una fuente de proteÃ­na y el cuarto restante a carbohidratos que te entreguen energÃ­a.\n\nAgrega una porciÃ³n de grasas saludables y ajusta las cantidades segÃºn tu apetito, actividad fÃ­sica, etapa de vida y objetivos de salud. La alimentaciÃ³n debe adaptarse a ti, no al revÃ©s.",
+      "cover": "",
+      "coverAlt": "Plato equilibrado con distintos grupos de alimentos",
+      "author": "Paulina Lagos",
+      "publishedAt": "2026-07-30",
+      "readMinutes": 3,
+      "featured": true
+    },
+    {
+      "id": "alimentacion-ciclo-menstrual",
+      "title": "AlimentaciÃ³n y ciclo menstrual",
+      "category": "Bienestar hormonal",
+      "excerpt": "Ideas para adaptar tus hÃ¡bitos alimentarios a las distintas etapas del ciclo y escuchar mejor tu cuerpo.",
+      "content": "El apetito, la energÃ­a y las preferencias alimentarias pueden variar a lo largo del ciclo menstrual. Observar estos cambios permite planificar comidas mÃ¡s satisfactorias y cuidar la energÃ­a sin recurrir a restricciones extremas.\n\nUna alimentaciÃ³n variada, suficiente y rica en fibra, proteÃ­nas y grasas saludables puede apoyar el bienestar general. Si los sÃ­ntomas interfieren con tu vida diaria, es importante evaluarlos de manera individual.",
+      "cover": "",
+      "coverAlt": "AlimentaciÃ³n para el bienestar durante el ciclo menstrual",
+      "author": "Paulina Lagos",
+      "publishedAt": "2026-07-24",
+      "readMinutes": 3,
+      "featured": false
+    },
+    {
+      "id": "colaciones-practicas",
+      "title": "Colaciones prÃ¡cticas y nutritivas",
+      "category": "HÃ¡bitos",
+      "excerpt": "Opciones fÃ¡ciles para organizar snacks que aporten energÃ­a y saciedad durante el dÃ­a.",
+      "content": "Una colaciÃ³n puede ser Ãºtil cuando existe hambre entre comidas o cuando la rutina exige pasar varias horas fuera de casa. Combinar una fuente de proteÃ­na o grasa saludable con frutas, verduras o cereales suele aportar mayor saciedad.\n\nYogur con fruta, frutos secos, pan con palta o hummus con verduras son alternativas simples. La mejor opciÃ³n serÃ¡ la que puedas transportar, disfrutar y sostener en tu rutina.",
+      "cover": "",
+      "coverAlt": "Colaciones prÃ¡cticas y nutritivas",
+      "author": "Paulina Lagos",
+      "publishedAt": "2026-07-18",
+      "readMinutes": 2,
+      "featured": false
+    },
+    {
+      "id": "habitos-sostenibles",
+      "title": "HÃ¡bitos sostenibles antes que dietas extremas",
+      "category": "Salud femenina",
+      "excerpt": "PequeÃ±os cambios que puedes mantener en el tiempo para mejorar tu relaciÃ³n con la comida.",
+      "content": "Los cambios mÃ¡s valiosos suelen ser aquellos que caben en la vida real. Comer con mayor regularidad, incorporar alimentos variados y reconocer las seÃ±ales de hambre y saciedad puede ser mÃ¡s Ãºtil que perseguir planes rÃ­gidos.\n\nUn hÃ¡bito sostenible admite flexibilidad. El objetivo no es comer de manera perfecta, sino construir decisiones que cuiden tu salud y que puedas mantener sin culpa.",
+      "cover": "",
+      "coverAlt": "HÃ¡bitos de alimentaciÃ³n sostenibles",
+      "author": "Paulina Lagos",
+      "publishedAt": "2026-07-10",
+      "readMinutes": 2,
+      "featured": false
+    }
+  ]
+}
