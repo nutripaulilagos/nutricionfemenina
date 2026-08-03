@@ -528,13 +528,6 @@ section {
   max-width: 880px;
 }
 
-.blog .section-intro h2,
-.revista-destacada h3,
-.revista-card h3,
-.blog-lector-cabecera h2 {
-  font-family: Georgia, "Times New Roman", serif;
-}
-
 .revista-publicaciones {
   max-width: 1180px;
   margin: 0 auto;
@@ -752,7 +745,7 @@ section {
 
 .admin-header h1 {
   margin-bottom: 18px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: clamp(2.6rem, 7vw, 5rem);
   font-weight: 500;
   line-height: 1;
@@ -890,4 +883,15 @@ section {
   .blog-lector-cabecera h2 {
     font-size: 2.5rem;
   }
+}
+
+/* Tipografía consistente para todos los títulos */
+h1,
+h2,
+h3,
+.revista-destacada h3,
+.revista-card h3,
+.blog-lector-cabecera h2,
+.admin-header h1 {
+  font-family: "Poppins", Arial, sans-serif;
 }
