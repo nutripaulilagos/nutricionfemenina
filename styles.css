@@ -1235,3 +1235,39 @@ body.blog-abierto {
     padding: 1.1rem 1rem 1.1rem 2.6rem !important;
   }
 }
+
+
+/* Referencias bibliográficas normalizadas para todos los artículos */
+.articulo-referencias {
+  margin-top: 4rem;
+  padding: clamp(24px, 4vw, 36px);
+  border-top: 4px solid transparent;
+  border-radius: 18px;
+  background:
+    linear-gradient(#f8f5f9, #f8f5f9) padding-box,
+    linear-gradient(90deg, var(--brand), var(--accent)) border-box;
+}
+.articulo-referencias h2 {
+  margin: 0 0 1.4rem;
+  color: #332c36;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: clamp(1.45rem, 3vw, 1.9rem);
+  font-weight: 600;
+}
+.articulo-referencias ol {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding-left: 1.55rem;
+}
+.articulo-referencias li {
+  margin: 0;
+  padding-left: 0.45rem;
+  color: #554d59;
+  font-size: 0.94rem;
+  line-height: 1.7;
+}
+.articulo-referencias li::marker {
+  color: var(--brand-dark);
+  font-weight: 700;
+}
