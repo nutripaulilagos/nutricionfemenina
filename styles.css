@@ -1093,3 +1093,47 @@ body.blog-abierto {
   .articulo-volver { font-size: 0.88rem; }
   .articulo-publicacion { border-radius: 14px; }
 }
+
+
+/* Tarjetas editoriales equilibradas */
+.revista-grid {
+  align-items: stretch;
+}
+.revista-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.revista-card-contenido {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.revista-card-contenido > p:not(.blog-meta) {
+  display: -webkit-box;
+  min-height: 5.25em;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+.revista-card .blog-meta {
+  margin-top: 18px;
+}
+.revista-card .blog-leer {
+  margin-top: auto;
+}
+.revista-destacada-contenido > p:not(.blog-meta) {
+  max-width: 46ch;
+}
+.articulo-bajada {
+  max-width: 62ch;
+  margin-bottom: 0;
+}
+@media (max-width: 640px) {
+  .revista-card-contenido > p:not(.blog-meta) {
+    min-height: auto;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+}
