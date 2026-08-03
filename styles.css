@@ -982,3 +982,27 @@ h3,
   max-width: 100%;
   margin-inline: auto;
 }
+
+/* Lector estable: fondo bloqueado y scroll en el artículo completo */
+body.blog-abierto {
+  overflow: hidden;
+  height: 100%;
+  touch-action: none;
+}
+
+.blog-lector {
+  height: auto;
+  max-height: 92dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blog-lector-articulo {
+  height: auto;
+  min-height: 0;
+  overflow: visible;
+  touch-action: auto;
+}
