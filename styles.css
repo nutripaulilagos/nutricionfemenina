@@ -519,3 +519,375 @@ section {
     height: 56px;
   }
 }
+/* Revista digital */
+.blog {
+  background: #fcfaf7;
+}
+
+.blog .section-intro {
+  max-width: 880px;
+}
+
+.blog .section-intro h2,
+.revista-destacada h3,
+.revista-card h3,
+.blog-lector-cabecera h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.revista-publicaciones {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.revista-destacada {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.92fr);
+  min-height: 480px;
+  overflow: hidden;
+  border: 1px solid rgba(48, 42, 38, 0.12);
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(48, 42, 38, 0.1);
+}
+
+.revista-destacada-portada,
+.revista-card-portada,
+.blog-lector-portada {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(145deg, #a777b9, #6dbde0);
+}
+
+.revista-destacada-portada i,
+.revista-card-portada i {
+  font-size: clamp(3rem, 8vw, 7rem);
+  opacity: 0.75;
+}
+
+.revista-destacada-portada img,
+.revista-card-portada img,
+.blog-lector-portada img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.revista-destacada-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(32px, 5vw, 64px);
+}
+
+.revista-destacada h3 {
+  margin-bottom: 18px;
+  color: #27242a;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.03;
+}
+
+.revista-destacada-contenido > p:not(.blog-meta),
+.revista-card-contenido > p:not(.blog-meta) {
+  color: var(--muted);
+}
+
+.blog-meta {
+  margin: 14px 0 20px;
+  color: #857989;
+  font-size: 0.83rem;
+  letter-spacing: 0.02em;
+}
+
+.blog-leer {
+  align-self: flex-start;
+  padding: 0 0 5px;
+  border: 0;
+  border-bottom: 2px solid var(--accent);
+  color: var(--brand-dark);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.revista-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.revista-card {
+  overflow: hidden;
+  border: 1px solid rgba(48, 42, 38, 0.1);
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(48, 42, 38, 0.07);
+}
+
+.revista-card-portada {
+  aspect-ratio: 16 / 10;
+}
+
+.revista-card-contenido {
+  padding: 26px;
+}
+
+.revista-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.65rem;
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.blog-lector {
+  width: min(940px, calc(100% - 32px));
+  max-height: 92vh;
+  padding: 0;
+  overflow: auto;
+  border: 0;
+  background: #fcfaf7;
+  box-shadow: 0 30px 90px rgba(28, 20, 31, 0.35);
+}
+
+.blog-lector::backdrop {
+  background: rgba(28, 20, 31, 0.72);
+  backdrop-filter: blur(5px);
+}
+
+.blog-lector-cerrar {
+  position: sticky;
+  top: 16px;
+  z-index: 3;
+  float: right;
+  width: 44px;
+  height: 44px;
+  margin: 16px 16px -60px 0;
+  border: 0;
+  border-radius: 50%;
+  color: #2f2733;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  font-size: 1.45rem;
+  cursor: pointer;
+}
+
+.blog-lector-portada {
+  aspect-ratio: 16 / 8;
+}
+
+.blog-lector-cabecera,
+.blog-lector-cuerpo {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-inline: clamp(24px, 7vw, 72px);
+}
+
+.blog-lector-cabecera {
+  padding-top: 48px;
+}
+
+.blog-lector-cabecera h2 {
+  margin-bottom: 18px;
+  color: #262129;
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.blog-bajada {
+  color: #554d59;
+  font-size: 1.16rem;
+  line-height: 1.75;
+}
+
+.blog-lector-cuerpo {
+  padding-top: 24px;
+  padding-bottom: 70px;
+  color: #3f3942;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.12rem;
+  line-height: 1.95;
+}
+
+.blog-lector-cuerpo p:first-child::first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  color: var(--brand-dark);
+  font-size: 4.5rem;
+  line-height: 0.75;
+}
+
+.blog-error {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Editor privado */
+.admin-body {
+  min-height: 100vh;
+  background: linear-gradient(145deg, #f6ebf7, #eef8fc);
+}
+
+.admin-shell {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0 90px;
+}
+
+.admin-header {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.admin-kicker {
+  margin-bottom: 8px;
+  color: var(--brand-dark);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.admin-header h1 {
+  margin-bottom: 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.admin-header p:last-child {
+  color: var(--muted);
+}
+
+.admin-card {
+  padding: clamp(26px, 5vw, 48px);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.admin-card[hidden] {
+  display: none;
+}
+
+.admin-card h2 {
+  margin-bottom: 22px;
+}
+
+.admin-card label {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: #3b3340;
+  font-weight: 600;
+}
+
+.admin-card input,
+.admin-card textarea {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid rgba(123, 77, 139, 0.25);
+  border-radius: 10px;
+  color: var(--text);
+  background: #fff;
+  font: inherit;
+}
+
+.admin-card textarea {
+  resize: vertical;
+}
+
+.admin-ayuda {
+  margin-top: -10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.admin-grid-dos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.admin-check {
+  display: flex !important;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.admin-check input {
+  width: 20px;
+  height: 20px;
+}
+
+.admin-sesion,
+.admin-acciones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.admin-sesion {
+  margin-bottom: 28px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.admin-sesion button {
+  border: 0;
+  color: var(--brand-dark);
+  background: transparent;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin-acciones a {
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.admin-estado {
+  min-height: 28px;
+  margin: 20px 4px 0;
+  font-weight: 600;
+}
+
+.admin-estado.success { color: #187247; }
+.admin-estado.error { color: #a52b42; }
+
+@media (max-width: 820px) {
+  .revista-destacada {
+    grid-template-columns: 1fr;
+  }
+
+  .revista-destacada-portada {
+    min-height: 320px;
+  }
+
+  .revista-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .admin-grid-dos {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .admin-acciones {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .blog-lector-cabecera h2 {
+    font-size: 2.5rem;
+  }
+}
