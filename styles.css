@@ -199,6 +199,9 @@ h1 {
   isolation: isolate;
   justify-self: center;
   width: min(100%, 300px);
+  aspect-ratio: 1 / 1;
+  overflow: visible;
+  flex: 0 0 auto;
 }
 
 .hero-imagen::before {
@@ -215,6 +218,7 @@ h1 {
   z-index: 1;
   display: block;
   width: 100%;
+  height: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
