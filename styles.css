@@ -1006,3 +1006,90 @@ body.blog-abierto {
   overflow: visible;
   touch-action: auto;
 }
+
+
+/* Página completa para leer artículos */
+.articulo-page {
+  min-height: 100vh;
+  background: #fcfaf7;
+}
+.articulo-nav {
+  position: relative;
+  display: flex;
+  grid-template-columns: none;
+  justify-content: space-between;
+  padding: 14px clamp(20px, 5vw, 72px);
+}
+.articulo-logo { width: clamp(145px, 18vw, 220px); }
+.articulo-volver {
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+.articulo-main {
+  width: min(100%, 1100px);
+  margin: 0 auto;
+  padding: clamp(24px, 5vw, 64px) clamp(18px, 4vw, 44px) 96px;
+}
+.articulo-publicacion {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+.articulo-portada {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: clamp(12px, 3vw, 28px);
+  background: #f7f2f8;
+}
+.articulo-portada img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 82vh;
+  object-fit: contain;
+}
+.articulo-cabecera,
+.articulo-cuerpo {
+  width: min(100%, 780px);
+  margin-inline: auto;
+  padding-inline: clamp(22px, 6vw, 72px);
+}
+.articulo-cabecera { padding-top: clamp(38px, 7vw, 72px); }
+.articulo-cabecera h1 {
+  margin-bottom: 20px;
+  font-size: clamp(2.15rem, 6vw, 4.4rem);
+  font-weight: 600;
+  line-height: 1.08;
+}
+.articulo-bajada {
+  color: #554d59;
+  font-size: clamp(1.05rem, 2vw, 1.22rem);
+  line-height: 1.8;
+}
+.articulo-cuerpo {
+  padding-top: 24px;
+  padding-bottom: clamp(54px, 8vw, 88px);
+  color: #3f3942;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.05rem, 2vw, 1.16rem);
+  line-height: 1.95;
+}
+.articulo-cuerpo h2 {
+  margin: 2.5rem 0 0.9rem;
+  color: #2d2730;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  line-height: 1.25;
+}
+.articulo-cuerpo p { margin-bottom: 1.35rem; }
+.articulo-cuerpo ul { margin: 0 0 1.6rem; padding-left: 1.4rem; }
+.articulo-cuerpo li { margin-bottom: 0.6rem; }
+.articulo-error { padding: 70px 20px; text-align: center; }
+@media (max-width: 640px) {
+  .articulo-nav { align-items: center; gap: 14px; }
+  .articulo-volver { font-size: 0.88rem; }
+  .articulo-publicacion { border-radius: 14px; }
+}
