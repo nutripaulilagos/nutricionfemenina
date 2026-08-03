@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Editor privado | Paulina Lagos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260802-editorial">
+</head>
+<body class="admin-body">
+  <main class="admin-shell">
+    <header class="admin-header">
+      <p class="admin-kicker">Panel editorial privado</p>
+      <h1>Publicar en el blog</h1>
+      <p>El acceso requiere tu cuenta de GitHub con permisos sobre el repositorio. El token se usa Ãºnicamente durante esta sesiÃ³n y nunca se guarda.</p>
+    </header>
+
+    <section class="admin-card" id="acceso-editor">
+      <h2>Acceso seguro</h2>
+      <label for="github-token">Token personal de GitHub</label>
+      <input id="github-token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_â€¦">
+      <p class="admin-ayuda">Utiliza un token especÃ­fico para este repositorio con permiso <strong>Contents: Read and write</strong>.</p>
+      <button class="btn-principal" id="conectar-github" type="button">Ingresar al editor</button>
+    </section>
+
+    <form class="admin-card admin-form" id="form-publicacion" hidden>
+      <div class="admin-sesion">
+        <span id="cuenta-conectada"></span>
+        <button id="cerrar-sesion" type="button">Cerrar sesiÃ³n</button>
+      </div>
+      <div class="admin-grid-dos">
+        <label>TÃ­tulo<input name="title" required maxlength="100"></label>
+        <label>CategorÃ­a<input name="category" required maxlength="50" placeholder="Salud femenina"></label>
+      </div>
+      <label>Resumen<textarea name="excerpt" required maxlength="240" rows="3"></textarea></label>
+      <label>ArtÃ­culo<textarea name="content" required rows="14" placeholder="Escribe el artÃ­culo. Separa los pÃ¡rrafos con una lÃ­nea en blanco."></textarea></label>
+      <div class="admin-grid-dos">
+        <label>Fecha de publicaciÃ³n<input name="publishedAt" required type="date"></label>
+        <label>Foto de portada<input name="cover" type="file" accept="image/jpeg,image/png,image/webp"></label>
+      </div>
+      <label>DescripciÃ³n de la foto<input name="coverAlt" maxlength="140" placeholder="Describe brevemente lo que aparece en la imagen"></label>
+      <label class="admin-check"><input name="featured" type="checkbox"> Mostrar como publicaciÃ³n principal</label>
+      <div class="admin-acciones">
+        <button class="btn-principal" type="submit">Publicar artÃ­culo</button>
+        <a href="index.html#blog" target="_blank" rel="noopener">Ver blog</a>
+      </div>
+    </form>
+    <p class="admin-estado" id="admin-estado" role="status" aria-live="polite"></p>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>
