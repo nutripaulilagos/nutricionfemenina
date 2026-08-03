@@ -8,32 +8,45 @@
 
   const addBody = (container, post) => {
     const blocks = String(post.content || "").split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean);
+    let previousWasListIntro = false;
+
     blocks.forEach((block, index) => {
       if (index === 0 && block.toLowerCase() === post.title.trim().toLowerCase()) return;
+
       const lines = block.split(/\n+/).map((line) => line.trim()).filter(Boolean);
-      const bulletLines = lines.filter((line) => /^[-•]\s*/.test(line));
-      if (lines.length > 1 && bulletLines.length === lines.length) {
+      const explicitBullets = lines.every((line) => /^[-•]\s*/.test(line));
+      const compactItems = lines.length > 1 && lines.every((line) => line.length <= 190);
+      const shouldBeList = explicitBullets || (previousWasListIntro && compactItems);
+
+      if (shouldBeList) {
         const list = document.createElement("ul");
+        list.className = "articulo-lista";
         lines.forEach((line) => {
           const item = document.createElement("li");
-          item.textContent = line.replace(/^[-•]\s*/, "");
+          item.textContent = line.replace(/^[-•]\s*/, "").replace(/\.$/, "");
           list.append(item);
         });
         container.append(list);
+        previousWasListIntro = false;
         return;
       }
+
       if (lines.length > 1) {
         lines.forEach((line) => {
           const paragraph = document.createElement("p");
           paragraph.textContent = line;
           container.append(paragraph);
         });
+        previousWasListIntro = /:\s*$/.test(lines.at(-1));
         return;
       }
+
       const isHeading = block.length <= 105 && !/[.!:]$/.test(block);
       const element = document.createElement(isHeading ? "h2" : "p");
+      if (isHeading) element.className = "articulo-seccion";
       element.textContent = block;
       container.append(element);
+      previousWasListIntro = !isHeading && /:\s*$/.test(block);
     });
   };
 
