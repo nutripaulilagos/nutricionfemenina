@@ -1137,3 +1137,101 @@ body.blog-abierto {
     line-clamp: 4;
   }
 }
+
+
+/* Composición editorial armónica del artículo */
+.articulo-publicacion > .articulo-cabecera {
+  position: static;
+  z-index: auto;
+  display: block;
+  padding: clamp(40px, 7vw, 76px) clamp(24px, 7vw, 76px) 10px;
+  background: #fff;
+  border: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.articulo-cabecera,
+.articulo-cuerpo {
+  width: min(100%, 850px);
+}
+.articulo-cabecera h1 {
+  max-width: 18ch;
+  margin: 8px 0 22px;
+  font-size: clamp(2.15rem, 5vw, 4rem);
+  letter-spacing: -0.025em;
+}
+.articulo-cabecera .blog-categoria {
+  margin-bottom: 16px;
+}
+.articulo-cabecera .blog-meta {
+  display: block;
+  max-width: none;
+  margin: 0 0 22px;
+  color: #796f7d;
+  line-height: 1.6;
+}
+.articulo-cabecera .articulo-bajada {
+  max-width: 68ch;
+  color: #514957;
+  font-size: clamp(1.08rem, 2vw, 1.25rem);
+  line-height: 1.75;
+}
+.articulo-cuerpo {
+  padding-top: 30px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  line-height: 1.85;
+}
+.articulo-cuerpo p {
+  color: #48414b;
+}
+.articulo-cuerpo .articulo-seccion {
+  position: relative;
+  margin: 3.3rem 0 1.2rem;
+  padding-top: 2rem;
+  color: #332c36;
+  font-size: clamp(1.45rem, 3vw, 2.15rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+.articulo-cuerpo .articulo-seccion::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(100%, 150px);
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand), var(--accent));
+}
+.articulo-lista {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0.7rem 0 2rem;
+  padding: 1.25rem 1.4rem 1.25rem 3.1rem !important;
+  border: 1px solid rgba(123, 77, 139, 0.12);
+  border-radius: 16px;
+  background: linear-gradient(135deg, #fcf7fd, #f5fbfe);
+}
+.articulo-lista li {
+  margin: 0 !important;
+  padding-left: 0.25rem;
+}
+.articulo-lista li::marker {
+  color: var(--brand-dark);
+}
+@media (max-width: 640px) {
+  .articulo-publicacion > .articulo-cabecera {
+    padding: 34px 22px 8px;
+  }
+  .articulo-cabecera h1 {
+    max-width: none;
+    font-size: 2.15rem;
+  }
+  .articulo-cuerpo {
+    padding-inline: 22px;
+  }
+  .articulo-lista {
+    padding: 1.1rem 1rem 1.1rem 2.6rem !important;
+  }
+}
