@@ -14,6 +14,23 @@
       if (index === 0 && block.toLowerCase() === post.title.trim().toLowerCase()) return;
 
       const lines = block.split(/\n+/).map((line) => line.trim()).filter(Boolean);
+
+      if (/^referencias(?: científicas)?$/i.test(lines[0])) {
+        const section = document.createElement("section");
+        section.className = "articulo-referencias";
+        const heading = document.createElement("h2");
+        heading.textContent = "Referencias";
+        const list = document.createElement("ol");
+        lines.slice(1).forEach((reference) => {
+          const item = document.createElement("li");
+          item.textContent = reference;
+          list.append(item);
+        });
+        section.append(heading, list);
+        container.append(section);
+        previousWasListIntro = false;
+        return;
+      }
       const explicitBullets = lines.every((line) => /^[-•]\s*/.test(line));
       const compactItems = lines.length > 1 && lines.every((line) => line.length <= 190);
       const shouldBeList = explicitBullets || (previousWasListIntro && compactItems);
