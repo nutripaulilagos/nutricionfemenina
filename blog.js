@@ -71,6 +71,8 @@
     });
     article.append(body);
     dialog.showModal();
+    document.body.classList.add("blog-abierto");
+    dialog.scrollTop = 0;
   };
 
   const card = (post, featured = false) => {
@@ -119,8 +121,16 @@
       container.innerHTML = '<p class="blog-error">Las publicaciones no estÃ¡n disponibles temporalmente.</p>';
     });
 
-  dialog.querySelector(".blog-lector-cerrar").addEventListener("click", () => dialog.close());
+  const closePost = () => {
+    if (dialog.open) dialog.close();
+    document.body.classList.remove("blog-abierto");
+  };
+
+  dialog.querySelector(".blog-lector-cerrar").addEventListener("click", closePost);
   dialog.addEventListener("click", (event) => {
-    if (event.target === dialog) dialog.close();
+    if (event.target === dialog) closePost();
+  });
+  dialog.addEventListener("close", () => {
+    document.body.classList.remove("blog-abierto");
   });
 })();
