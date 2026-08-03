@@ -48,10 +48,26 @@
 
     const body = document.createElement("div");
     body.className = "blog-lector-cuerpo";
-    post.content.split(/\n\s*\n/).filter(Boolean).forEach((text) => {
-      const paragraph = document.createElement("p");
-      paragraph.textContent = text.trim();
-      body.append(paragraph);
+    post.content.split(/\n\s*\n/).filter(Boolean).forEach((text, index) => {
+      const block = text.trim();
+      if (index === 0 && block.toLowerCase() === post.title.trim().toLowerCase()) return;
+
+      const lines = block.split(/\n+/).map((line) => line.trim()).filter(Boolean);
+      if (lines.length > 1) {
+        const list = document.createElement("ul");
+        lines.forEach((line) => {
+          const item = document.createElement("li");
+          item.textContent = line.replace(/^[-•]\s*/, "");
+          list.append(item);
+        });
+        body.append(list);
+        return;
+      }
+
+      const isHeading = block.length <= 105 && (!/[.!]$/.test(block) || block.startsWith("¿"));
+      const element = document.createElement(isHeading ? "h3" : "p");
+      element.textContent = block;
+      body.append(element);
     });
     article.append(body);
     dialog.showModal();
