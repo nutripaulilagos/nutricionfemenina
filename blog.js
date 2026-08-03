@@ -46,7 +46,7 @@
 
     const link = document.createElement("a");
     link.className = "blog-leer";
-    link.href = `articulo.html?id=${encodeURIComponent(post.id)}&v=20260803-articulo-editorial`;
+    link.href = `articulo.html?id=${encodeURIComponent(post.id)}&v=20260803-referencias`;
     link.textContent = "Leer artículo";
     link.setAttribute("aria-label", `Leer artículo: ${post.title}`);
 
