@@ -6,6 +6,11 @@
     day: "numeric", month: "long", year: "numeric"
   }).format(new Date(`${value}T12:00:00`));
 
+  const ensureSentencePunctuation = (text) => {
+    const clean = String(text || "").trim();
+    return /[.!?…:;]["'»”)]?$/.test(clean) ? clean : `${clean}.`;
+  };
+
   const addBody = (container, post) => {
     const blocks = String(post.content || "").split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean);
     let previousWasListIntro = false;
@@ -40,7 +45,7 @@
         list.className = "articulo-lista";
         lines.forEach((line) => {
           const item = document.createElement("li");
-          item.textContent = line.replace(/^[-•]\s*/, "").replace(/\.$/, "");
+          item.textContent = ensureSentencePunctuation(line.replace(/^[-•]\\s*/, ""));
           list.append(item);
         });
         container.append(list);
@@ -51,7 +56,7 @@
       if (lines.length > 1) {
         lines.forEach((line) => {
           const paragraph = document.createElement("p");
-          paragraph.textContent = line;
+          paragraph.textContent = ensureSentencePunctuation(line);
           container.append(paragraph);
         });
         previousWasListIntro = /:\s*$/.test(lines.at(-1));
@@ -61,7 +66,7 @@
       const isHeading = block.length <= 105 && !/[.!:]$/.test(block);
       const element = document.createElement(isHeading ? "h2" : "p");
       if (isHeading) element.className = "articulo-seccion";
-      element.textContent = block;
+      element.textContent = isHeading ? block : ensureSentencePunctuation(block);
       container.append(element);
       previousWasListIntro = !isHeading && /:\s*$/.test(block);
     });

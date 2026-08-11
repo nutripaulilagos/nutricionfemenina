@@ -1314,3 +1314,18 @@ body.blog-abierto {
     min-height: 0;
   }
 }
+
+/* Lectura limpia y justificada */
+.articulo-bajada,
+.articulo-cuerpo p,
+.articulo-lista li {
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.articulo-cuerpo p,
+.articulo-lista li {
+  line-height: 1.75;
+}
