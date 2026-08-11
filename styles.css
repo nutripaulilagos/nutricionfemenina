@@ -1271,3 +1271,46 @@ body.blog-abierto {
   color: var(--brand-dark);
   font-weight: 700;
 }
+
+/* Ajuste final de portadas del blog */
+.revista-destacada {
+  min-height: 0;
+  align-items: center;
+}
+
+.revista-destacada-portada {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  align-self: center;
+}
+
+.revista-destacada-portada img,
+.revista-card-portada img {
+  object-position: center;
+}
+
+.revista-destacada h3 {
+  font-size: clamp(2rem, 4vw, 3.4rem);
+}
+
+.articulo-portada {
+  padding: 0;
+  overflow: hidden;
+}
+
+.articulo-portada img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 820px) {
+  .revista-destacada-portada {
+    min-height: 0;
+  }
+}

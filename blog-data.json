@@ -1,58 +1,6 @@
 {
   "posts": [
     {
-      "id": "plato-equilibrado",
-      "title": "Cómo armar un plato equilibrado",
-      "category": "Nutrición clínica",
-      "excerpt": "Una guía simple para combinar proteínas, carbohidratos, verduras y grasas saludables en tu rutina diaria.",
-      "content": "Un plato equilibrado no tiene que ser complicado. Puedes comenzar destinando la mitad del plato a verduras de distintos colores, un cuarto a una fuente de proteína y el cuarto restante a carbohidratos que te entreguen energía.\n\nAgrega una porción de grasas saludables y ajusta las cantidades según tu apetito, actividad física, etapa de vida y objetivos de salud. La alimentación debe adaptarse a ti, no al revés.",
-      "cover": "",
-      "coverAlt": "Plato equilibrado con distintos grupos de alimentos",
-      "author": "Paulina Lagos",
-      "publishedAt": "2026-07-30",
-      "readMinutes": 3,
-      "featured": false
-    },
-    {
-      "id": "alimentacion-ciclo-menstrual",
-      "title": "Alimentación y ciclo menstrual",
-      "category": "Bienestar hormonal",
-      "excerpt": "Ideas para adaptar tus hábitos alimentarios a las distintas etapas del ciclo y escuchar mejor tu cuerpo.",
-      "content": "El apetito, la energía y las preferencias alimentarias pueden variar a lo largo del ciclo menstrual. Observar estos cambios permite planificar comidas más satisfactorias y cuidar la energía sin recurrir a restricciones extremas.\n\nUna alimentación variada, suficiente y rica en fibra, proteínas y grasas saludables puede apoyar el bienestar general. Si los síntomas interfieren con tu vida diaria, es importante evaluarlos de manera individual.",
-      "cover": "",
-      "coverAlt": "Alimentación para el bienestar durante el ciclo menstrual",
-      "author": "Paulina Lagos",
-      "publishedAt": "2026-07-24",
-      "readMinutes": 3,
-      "featured": false
-    },
-    {
-      "id": "colaciones-practicas",
-      "title": "Colaciones prácticas y nutritivas",
-      "category": "Hábitos",
-      "excerpt": "Opciones fáciles para organizar snacks que aporten energía y saciedad durante el día.",
-      "content": "Una colación puede ser útil cuando existe hambre entre comidas o cuando la rutina exige pasar varias horas fuera de casa. Combinar una fuente de proteína o grasa saludable con frutas, verduras o cereales suele aportar mayor saciedad.\n\nYogur con fruta, frutos secos, pan con palta o hummus con verduras son alternativas simples. La mejor opción será la que puedas transportar, disfrutar y sostener en tu rutina.",
-      "cover": "",
-      "coverAlt": "Colaciones prácticas y nutritivas",
-      "author": "Paulina Lagos",
-      "publishedAt": "2026-07-18",
-      "readMinutes": 2,
-      "featured": false
-    },
-    {
-      "id": "habitos-sostenibles",
-      "title": "Hábitos sostenibles antes que dietas extremas",
-      "category": "Salud femenina",
-      "excerpt": "Pequeños cambios que puedes mantener en el tiempo para mejorar tu relación con la comida.",
-      "content": "Los cambios más valiosos suelen ser aquellos que caben en la vida real. Comer con mayor regularidad, incorporar alimentos variados y reconocer las señales de hambre y saciedad puede ser más útil que perseguir planes rígidos.\n\nUn hábito sostenible admite flexibilidad. El objetivo no es comer de manera perfecta, sino construir decisiones que cuiden tu salud y que puedas mantener sin culpa.",
-      "cover": "",
-      "coverAlt": "Hábitos de alimentación sostenibles",
-      "author": "Paulina Lagos",
-      "publishedAt": "2026-07-10",
-      "readMinutes": 2,
-      "featured": false
-    },
-    {
       "id": "como-armar-un-plato-saludable-la-ciencia-detras-de-una-alime-1785721341097",
       "title": "Cómo armar un plato saludable: la ciencia detrás de una alimentación equilibrada",
       "category": "Nutrición funcional",
