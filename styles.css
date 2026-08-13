@@ -520,6 +520,98 @@ section {
   }
 }
 /* Revista digital */
+.recetario {
+  background: linear-gradient(180deg, #f8f1fb 0%, #f3faff 100%);
+}
+
+.recetario-marco {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(68, 43, 79, 0.14);
+}
+
+.recetario-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 22px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand-dark), var(--accent));
+}
+
+.recetario-cabecera div {
+  display: flex;
+  flex-direction: column;
+}
+
+.recetario-cabecera strong {
+  font-size: 1.08rem;
+}
+
+.recetario-cabecera small {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.recetario-cabecera a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.recetario-cabecera a:hover,
+.recetario-cabecera a:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.recetario-marco iframe {
+  display: block;
+  width: 100%;
+  height: min(84vh, 900px);
+  min-height: 720px;
+  border: 0;
+  background: #f6f1e7;
+}
+
+.recetario-ayuda {
+  max-width: 760px;
+  margin: 20px auto 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .recetario {
+    padding-inline: 12px;
+  }
+
+  .recetario-cabecera {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .recetario-marco {
+    border-radius: 18px;
+  }
+
+  .recetario-marco iframe {
+    height: 78vh;
+    min-height: 620px;
+  }
+}
+
 .blog {
   background: #fcfaf7;
 }
@@ -1329,3 +1421,4 @@ body.blog-abierto {
 .articulo-lista li {
   line-height: 1.75;
 }
+
