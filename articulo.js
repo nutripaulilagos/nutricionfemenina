@@ -1,6 +1,36 @@
 (() => {
   const main = document.querySelector("#articulo-publicado");
   const id = new URLSearchParams(location.search).get("id");
+  const whatsappUrl = "https://wa.me/56936110436?text=Hola%20Paulina%2C%20le%C3%AD%20uno%20de%20tus%20art%C3%ADculos%20y%20quisiera%20agendar%20una%20evaluaci%C3%B3n%20nutricional.%20%C2%BFQu%C3%A9%20horarios%20tienes%20disponibles%3F";
+
+  const setMeta = (selector, attribute, value) => {
+    let element = document.querySelector(selector);
+    if (!element) {
+      element = document.createElement("meta");
+      const [name, key] = selector.includes("property=") ? ["property", selector.match(/property="([^"]+)"/)?.[1]] : ["name", selector.match(/name="([^"]+)"/)?.[1]];
+      if (key) element.setAttribute(name, key);
+      document.head.append(element);
+    }
+    element.setAttribute(attribute, value);
+  };
+
+  const appendLinkedText = (container, text) => {
+    const pattern = /(https?:\/\/[^\s]+)/g;
+    let cursor = 0;
+    for (const match of text.matchAll(pattern)) {
+      container.append(document.createTextNode(text.slice(cursor, match.index)));
+      const cleanUrl = match[0].replace(/[.,;)]+$/, "");
+      const trailing = match[0].slice(cleanUrl.length);
+      const link = document.createElement("a");
+      link.href = cleanUrl;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = cleanUrl;
+      container.append(link, document.createTextNode(trailing));
+      cursor = match.index + match[0].length;
+    }
+    container.append(document.createTextNode(text.slice(cursor)));
+  };
 
   const formatDate = (value) => new Intl.DateTimeFormat("es-CL", {
     day: "numeric", month: "long", year: "numeric"
@@ -28,7 +58,7 @@
         const list = document.createElement("ol");
         lines.slice(1).forEach((reference) => {
           const item = document.createElement("li");
-          item.textContent = reference;
+          appendLinkedText(item, reference.replace(/^\d+[.)]\s*/, ""));
           list.append(item);
         });
         section.append(heading, list);
@@ -81,6 +111,10 @@
       const post = posts.find((item) => item.id === id);
       if (!post) throw new Error("Artículo no encontrado");
       document.title = `${post.title} | Paulina Lagos`;
+      setMeta('meta[name="description"]', "content", post.excerpt);
+      setMeta('meta[property="og:title"]', "content", post.title);
+      setMeta('meta[property="og:description"]', "content", post.excerpt);
+      if (post.cover) setMeta('meta[property="og:image"]', "content", new URL(post.cover, location.href).href);
       main.replaceChildren();
 
       const article = document.createElement("article");
@@ -115,6 +149,21 @@
       const body = document.createElement("div");
       body.className = "articulo-cuerpo";
       addBody(body, post);
+
+      const cta = document.createElement("aside");
+      cta.className = "articulo-cta";
+      const ctaTitle = document.createElement("h2");
+      ctaTitle.textContent = "¿Quieres adaptar estas recomendaciones a tu vida?";
+      const ctaText = document.createElement("p");
+      ctaText.textContent = "En una evaluación nutricional revisamos tu alimentación, antecedentes, síntomas y objetivos para construir un plan individualizado y posible de mantener.";
+      const ctaLink = document.createElement("a");
+      ctaLink.className = "btn-principal";
+      ctaLink.href = whatsappUrl;
+      ctaLink.target = "_blank";
+      ctaLink.rel = "noopener";
+      ctaLink.textContent = "Consultar horarios por WhatsApp";
+      cta.append(ctaTitle, ctaText, ctaLink);
+      body.append(cta);
       article.append(body);
       main.append(article);
       window.scrollTo(0, 0);
