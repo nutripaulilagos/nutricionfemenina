@@ -38,7 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260811-lectura">
+<link rel="stylesheet" href="styles.css?v=20260904-recetario">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
@@ -203,27 +203,55 @@ Ver servicios
 
 <section id="recetario" class="recetario">
 <div class="section-intro">
-<span>Recetario saludable</span>
-<h2>20 preparaciones para comer rico y cuidarte</h2>
-<p>Explora recetas con fotografías, ingredientes, preparación, información nutricional, alérgenos y filtros según tus preferencias.</p>
+<span>Recetario de bienestar</span>
+<h2>30 recetas inspiradas en el patrón mediterráneo</h2>
+<p>Pescados, vegetales, aceite de oliva y fermentados en preparaciones sencillas, con notas de cocina y seguridad.</p>
 </div>
-<div class="recetario-marco">
-<div class="recetario-cabecera">
-<div>
-<strong>Vida en tu plato</strong>
-<small>Desayunos, almuerzos, cenas, snacks y postres</small>
+<div class="recetario-editorial">
+<article class="recetario-card recetario-card-destacada">
+<a class="recetario-card-imagen" href="recetario/?receta=1" aria-label="Ver receta: Avena nocturna con frutos rojos y nueces">
+<img src="recetario/recipes/01.webp" alt="Avena nocturna con frutos rojos y nueces" width="1200" height="624" loading="lazy">
+</a>
+<div class="recetario-card-contenido">
+<span class="blog-categoria">Desayunos</span>
+<h3>Avena nocturna con frutos rojos y nueces</h3>
+<p>Cremosa, naturalmente dulce y lista después de una noche de reposo.</p>
+<p class="blog-meta">10 min + reposo · 2 porciones</p>
+<a class="blog-leer" href="recetario/?receta=1">Ver receta</a>
 </div>
-<a href="recetario/">Abrir en pantalla completa <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</article>
+<div class="recetario-grid">
+<article class="recetario-card">
+<a class="recetario-card-imagen" href="recetario/?receta=7" aria-label="Ver receta: Salmón al horno con naranja e hinojo">
+<img src="recetario/recipes/07.webp" alt="Salmón al horno con naranja e hinojo" width="1200" height="624" loading="lazy">
+</a>
+<div class="recetario-card-contenido">
+<span class="blog-categoria">Pescados</span>
+<h3>Salmón al horno con naranja e hinojo</h3>
+<p>Una preparación aromática y sencilla para compartir.</p>
+<p class="blog-meta">30 min · 4 porciones</p>
+<a class="blog-leer" href="recetario/?receta=7">Ver receta</a>
 </div>
-<iframe src="recetario/" title="Recetario saludable interactivo Vida en tu plato" loading="lazy"></iframe>
+</article>
+<article class="recetario-card">
+<a class="recetario-card-imagen" href="recetario/?receta=26" aria-label="Ver receta: Chucrut de repollo morado">
+<img src="recetario/recipes/26.webp" alt="Chucrut de repollo morado" width="1200" height="624" loading="lazy">
+</a>
+<div class="recetario-card-contenido">
+<span class="blog-categoria">Fermentados</span>
+<h3>Chucrut de repollo morado</h3>
+<p>Una receta guiada con proporción de sal y señales claras de seguridad.</p>
+<p class="blog-meta">25 min + fermentación · 1 frasco</p>
+<a class="blog-leer" href="recetario/?receta=26">Ver receta</a>
 </div>
-<div class="recetario-mobile-card">
-<i class="fa-solid fa-book-open" aria-hidden="true"></i>
-<strong>Explora las 20 recetas en una vista cómoda</strong>
-<p>Busca por ingrediente, filtra tus preferencias y revisa cada preparación sin desplazamientos dobles.</p>
-<a class="btn-principal" href="recetario/">Abrir el recetario gratis</a>
+</article>
 </div>
-<p class="recetario-ayuda">Puedes buscar por ingrediente, filtrar por comida o preferencia y descargar el recetario en PDF desde la aplicación.</p>
+</div>
+<div class="seccion-cta recetario-cta">
+<p>Busca por ingrediente o filtra las preparaciones por sección.</p>
+<a class="btn-principal" href="recetario/">Explorar las 30 recetas</a>
+<a class="btn-secundario" href="recetario/recetario-bienestar-dieta-mediterranea.pdf" download>Descargar PDF</a>
+</div>
 </section>
 
 <section id="faq" class="faq">
