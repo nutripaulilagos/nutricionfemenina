@@ -1,0 +1,725 @@
+[
+  {
+    "id": 1,
+    "title": "Avena nocturna de frutos rojos",
+    "category": "Desayuno",
+    "emoji": "🫐",
+    "description": "Cremosa, fresca y lista al despertar.",
+    "time": 10,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "kcal": 340,
+    "protein": 14,
+    "carbs": 48,
+    "fat": 10,
+    "fiber": 9,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten"
+    ],
+    "allergens": "Lácteos. Puede contener frutos secos.",
+    "storage": "Hasta 2 días refrigerada.",
+    "tip": "Usa avena certificada sin gluten si lo necesitas.",
+    "ingredients": [
+      "100 g de avena en copos",
+      "250 ml de leche o bebida vegetal",
+      "150 g de yogur natural",
+      "1 cda de semillas de chía",
+      "120 g de frutos rojos",
+      "1 cdta de miel",
+      "Canela al gusto"
+    ],
+    "steps": [
+      "Mezcla la avena, leche, yogur, chía, miel y canela.",
+      "Reparte en dos frascos y refrigera toda la noche.",
+      "Añade los frutos rojos justo antes de servir."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Tostada de aguacate y huevo",
+    "category": "Desayuno",
+    "emoji": "🥑",
+    "description": "Crujiente, saciante y rica en proteína.",
+    "time": 12,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "kcal": 390,
+    "protein": 17,
+    "carbs": 34,
+    "fat": 22,
+    "fiber": 8,
+    "tags": [
+      "Vegetariana",
+      "Alta proteína"
+    ],
+    "allergens": "Huevo y gluten.",
+    "storage": "Consumir recién hecha.",
+    "tip": "Añade limón al aguacate para mantener su color.",
+    "ingredients": [
+      "1 rebanada de pan integral",
+      "1/2 aguacate",
+      "2 huevos",
+      "Tomates cherry",
+      "Zumo de limón",
+      "Pimienta y semillas"
+    ],
+    "steps": [
+      "Tuesta el pan y machaca el aguacate con limón.",
+      "Cocina los huevos a tu gusto.",
+      "Monta la tostada con tomates, pimienta y semillas."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Tortitas de plátano y avena",
+    "category": "Desayuno",
+    "emoji": "🥞",
+    "description": "Tiernas, sin azúcar añadido y familiares.",
+    "time": 18,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "kcal": 310,
+    "protein": 13,
+    "carbs": 49,
+    "fat": 8,
+    "fiber": 6,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten"
+    ],
+    "allergens": "Huevo. Puede contener lácteos.",
+    "storage": "2 días refrigeradas o 1 mes congeladas.",
+    "tip": "Cocina a fuego medio-bajo para que no se quemen.",
+    "ingredients": [
+      "1 plátano maduro",
+      "2 huevos",
+      "80 g de avena molida",
+      "1/2 cdta de canela",
+      "1 cdta de aceite de oliva",
+      "Yogur y fruta para servir"
+    ],
+    "steps": [
+      "Tritura plátano, huevos, avena y canela.",
+      "Engrasa ligeramente una sartén caliente.",
+      "Cocina porciones 2 minutos por lado y sirve."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Pudín de chía tropical",
+    "category": "Desayuno",
+    "emoji": "🥭",
+    "description": "Un desayuno fresco con mango y coco.",
+    "time": 10,
+    "servings": 2,
+    "difficulty": "Muy fácil",
+    "kcal": 295,
+    "protein": 8,
+    "carbs": 32,
+    "fat": 16,
+    "fiber": 12,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Puede contener frutos secos.",
+    "storage": "Hasta 3 días refrigerado.",
+    "tip": "Remueve de nuevo a los 10 minutos para evitar grumos.",
+    "ingredients": [
+      "60 g de semillas de chía",
+      "300 ml de bebida de coco",
+      "1 mango",
+      "1 lima",
+      "2 cdas de coco rallado",
+      "Menta fresca"
+    ],
+    "steps": [
+      "Mezcla chía y bebida de coco; reposa 4 horas.",
+      "Tritura la mitad del mango con zumo de lima.",
+      "Sirve en capas con mango, coco y menta."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bowl mediterráneo de quinoa",
+    "category": "Almuerzo",
+    "emoji": "🥗",
+    "description": "Colorido, completo y perfecto para llevar.",
+    "time": 25,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "kcal": 485,
+    "protein": 18,
+    "carbs": 61,
+    "fat": 20,
+    "fiber": 12,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten"
+    ],
+    "allergens": "Lácteos y sésamo.",
+    "storage": "3 días refrigerado, aliño aparte.",
+    "tip": "Enjuaga la quinoa para retirar su sabor amargo.",
+    "ingredients": [
+      "140 g de quinoa",
+      "200 g de garbanzos cocidos",
+      "1 pepino",
+      "200 g de tomates cherry",
+      "60 g de queso feta",
+      "Aceitunas",
+      "2 cdas de tahini",
+      "Limón y perejil"
+    ],
+    "steps": [
+      "Cuece la quinoa y deja enfriar.",
+      "Corta las verduras y mezcla con quinoa y garbanzos.",
+      "Añade feta y aceitunas; aliña con tahini y limón."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Salmón al limón con verduras",
+    "category": "Almuerzo",
+    "emoji": "🐟",
+    "description": "Jugoso, aromático y listo en una bandeja.",
+    "time": 30,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "kcal": 510,
+    "protein": 38,
+    "carbs": 28,
+    "fat": 27,
+    "fiber": 7,
+    "tags": [
+      "Sin gluten",
+      "Alta proteína"
+    ],
+    "allergens": "Pescado.",
+    "storage": "2 días refrigerado.",
+    "tip": "No sobrecocines el salmón; debe quedar jugoso.",
+    "ingredients": [
+      "2 lomos de salmón",
+      "1 calabacín",
+      "1 pimiento rojo",
+      "1 cebolla morada",
+      "300 g de patata pequeña",
+      "1 limón",
+      "2 cdas de aceite de oliva",
+      "Eneldo, ajo, sal y pimienta"
+    ],
+    "steps": [
+      "Calienta el horno a 200 °C y corta las verduras.",
+      "Hornea patata y verduras con aceite durante 15 minutos.",
+      "Añade el salmón, limón y eneldo; hornea 10-12 minutos."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Curry suave de garbanzos",
+    "category": "Almuerzo",
+    "emoji": "🍛",
+    "description": "Cremoso, vegetal y lleno de especias.",
+    "time": 30,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "kcal": 430,
+    "protein": 17,
+    "carbs": 59,
+    "fat": 16,
+    "fiber": 14,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Sin alérgenos principales; revisa el caldo.",
+    "storage": "4 días refrigerado o 2 meses congelado.",
+    "tip": "Añade espinaca al final para conservar el color.",
+    "ingredients": [
+      "500 g de garbanzos cocidos",
+      "400 g de tomate triturado",
+      "200 ml de leche de coco",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "2 cdtas de curry",
+      "150 g de espinacas",
+      "Cilantro y lima"
+    ],
+    "steps": [
+      "Sofríe cebolla, ajo y curry durante 5 minutos.",
+      "Añade tomate, coco y garbanzos; cuece 15 minutos.",
+      "Incorpora espinaca, lima y cilantro antes de servir."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pollo cítrico con arroz integral",
+    "category": "Almuerzo",
+    "emoji": "🍋",
+    "description": "Un clásico equilibrado con un giro fresco.",
+    "time": 35,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "kcal": 525,
+    "protein": 42,
+    "carbs": 61,
+    "fat": 12,
+    "fiber": 7,
+    "tags": [
+      "Sin gluten",
+      "Alta proteína"
+    ],
+    "allergens": "Soja si se usa tamari.",
+    "storage": "3 días refrigerado.",
+    "tip": "Corta el pollo uniforme para una cocción pareja.",
+    "ingredients": [
+      "450 g de pechuga de pollo",
+      "180 g de arroz integral",
+      "1 brócoli",
+      "1 naranja",
+      "1 limón",
+      "1 cda de tamari",
+      "1 cda de aceite de oliva",
+      "Jengibre y ajo"
+    ],
+    "steps": [
+      "Cuece el arroz según el envase.",
+      "Saltea el pollo con aceite, ajo y jengibre.",
+      "Añade brócoli, zumos y tamari; cocina 6-8 minutos."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Pasta integral con pesto verde",
+    "category": "Almuerzo",
+    "emoji": "🍝",
+    "description": "Rápida, fragante y cargada de vegetales.",
+    "time": 20,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "kcal": 495,
+    "protein": 19,
+    "carbs": 65,
+    "fat": 19,
+    "fiber": 10,
+    "tags": [
+      "Vegetariana"
+    ],
+    "allergens": "Gluten, lácteos y frutos secos.",
+    "storage": "3 días refrigerada.",
+    "tip": "Reserva agua de cocción para aligerar el pesto.",
+    "ingredients": [
+      "240 g de pasta integral",
+      "80 g de espinaca",
+      "30 g de albahaca",
+      "30 g de nueces",
+      "35 g de parmesano",
+      "1 limón",
+      "1 diente de ajo",
+      "200 g de tomates cherry"
+    ],
+    "steps": [
+      "Cuece la pasta al dente y reserva agua.",
+      "Tritura espinaca, albahaca, nueces, queso, limón y ajo.",
+      "Mezcla pasta, pesto y tomates; ajusta con agua de cocción."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Tacos de pescado y col",
+    "category": "Almuerzo",
+    "emoji": "🌮",
+    "description": "Frescos, crujientes y llenos de contraste.",
+    "time": 25,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "kcal": 445,
+    "protein": 33,
+    "carbs": 48,
+    "fat": 15,
+    "fiber": 8,
+    "tags": [
+      "Sin gluten",
+      "Alta proteína"
+    ],
+    "allergens": "Pescado y lácteos.",
+    "storage": "Componentes separados hasta 2 días.",
+    "tip": "Calienta las tortillas justo antes de montar.",
+    "ingredients": [
+      "450 g de pescado blanco",
+      "9 tortillas de maíz",
+      "250 g de col morada",
+      "1 zanahoria",
+      "1 aguacate",
+      "120 g de yogur natural",
+      "2 limas",
+      "Pimentón, comino y cilantro"
+    ],
+    "steps": [
+      "Sazona el pescado y cocínalo 3 minutos por lado.",
+      "Mezcla col, zanahoria, lima y una pizca de sal.",
+      "Monta tacos con pescado, ensalada, aguacate y yogur."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Crema de calabaza y jengibre",
+    "category": "Cena",
+    "emoji": "🎃",
+    "description": "Sedosa, reconfortante y muy ligera.",
+    "time": 35,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "kcal": 240,
+    "protein": 7,
+    "carbs": 35,
+    "fat": 10,
+    "fiber": 8,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Sin alérgenos principales; revisa el caldo.",
+    "storage": "4 días refrigerada o 2 meses congelada.",
+    "tip": "Tuesta las semillas para sumar textura.",
+    "ingredients": [
+      "800 g de calabaza",
+      "1 puerro",
+      "1 zanahoria",
+      "1 trozo de jengibre",
+      "750 ml de caldo vegetal",
+      "100 ml de leche de coco",
+      "Semillas de calabaza",
+      "Aceite de oliva"
+    ],
+    "steps": [
+      "Sofríe puerro, zanahoria y jengibre.",
+      "Añade calabaza y caldo; cuece 22 minutos.",
+      "Tritura con leche de coco y sirve con semillas."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Frittata de espinaca y tomate",
+    "category": "Cena",
+    "emoji": "🍳",
+    "description": "Proteína y verduras en una sola sartén.",
+    "time": 25,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "kcal": 320,
+    "protein": 25,
+    "carbs": 10,
+    "fat": 21,
+    "fiber": 4,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten",
+      "Alta proteína"
+    ],
+    "allergens": "Huevo y lácteos.",
+    "storage": "3 días refrigerada.",
+    "tip": "Termina bajo el grill para una superficie dorada.",
+    "ingredients": [
+      "6 huevos",
+      "150 g de espinaca",
+      "200 g de tomates cherry",
+      "80 g de queso de cabra",
+      "1/2 cebolla",
+      "1 cda de aceite",
+      "Orégano, sal y pimienta"
+    ],
+    "steps": [
+      "Sofríe cebolla, espinaca y tomates.",
+      "Bate huevos, sazona y vierte en la sartén.",
+      "Añade queso y cocina tapado o termina en el horno."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Calabacines rellenos de lentejas",
+    "category": "Cena",
+    "emoji": "🥒",
+    "description": "Sabrosos, ligeros y ricos en fibra.",
+    "time": 40,
+    "servings": 4,
+    "difficulty": "Media",
+    "kcal": 355,
+    "protein": 20,
+    "carbs": 44,
+    "fat": 12,
+    "fiber": 15,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten"
+    ],
+    "allergens": "Lácteos.",
+    "storage": "3 días refrigerados.",
+    "tip": "No vacíes demasiado el calabacín para que mantenga forma.",
+    "ingredients": [
+      "4 calabacines",
+      "350 g de lentejas cocidas",
+      "1 cebolla",
+      "300 g de tomate triturado",
+      "80 g de mozzarella",
+      "1 cdta de comino",
+      "Perejil y aceite de oliva"
+    ],
+    "steps": [
+      "Parte los calabacines, vacía y hornea 12 minutos.",
+      "Sofríe cebolla y pulpa; añade tomate, lentejas y comino.",
+      "Rellena, cubre con queso y gratina 12 minutos."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Ensalada tibia de boniato",
+    "category": "Cena",
+    "emoji": "🍠",
+    "description": "Dulce, tostada y con aliño de mostaza.",
+    "time": 35,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "kcal": 440,
+    "protein": 16,
+    "carbs": 54,
+    "fat": 20,
+    "fiber": 12,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten"
+    ],
+    "allergens": "Lácteos y mostaza.",
+    "storage": "2 días refrigerada, aliño aparte.",
+    "tip": "Separa bien el boniato en la bandeja para que dore.",
+    "ingredients": [
+      "500 g de boniato",
+      "120 g de rúcula",
+      "150 g de judías blancas",
+      "60 g de feta",
+      "30 g de nueces",
+      "1 cda de mostaza",
+      "1 cda de miel",
+      "Limón y aceite de oliva"
+    ],
+    "steps": [
+      "Asa el boniato a 210 °C durante 25 minutos.",
+      "Mezcla mostaza, miel, limón y aceite.",
+      "Combina rúcula, judías, boniato, feta, nueces y aliño."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Sopa miso con tofu y setas",
+    "category": "Cena",
+    "emoji": "🍜",
+    "description": "Umami, ligera y lista en pocos minutos.",
+    "time": 20,
+    "servings": 3,
+    "difficulty": "Fácil",
+    "kcal": 265,
+    "protein": 19,
+    "carbs": 26,
+    "fat": 11,
+    "fiber": 6,
+    "tags": [
+      "Vegana",
+      "Alta proteína"
+    ],
+    "allergens": "Soja y gluten según el miso.",
+    "storage": "2 días refrigerada sin los fideos.",
+    "tip": "No hiervas el miso para cuidar su aroma.",
+    "ingredients": [
+      "1 l de caldo vegetal",
+      "250 g de tofu firme",
+      "200 g de setas",
+      "120 g de fideos soba",
+      "3 cdas de miso",
+      "2 cebolletas",
+      "1 hoja de alga nori",
+      "Jengibre"
+    ],
+    "steps": [
+      "Cuece los fideos y reserva.",
+      "Calienta el caldo con jengibre, tofu y setas 8 minutos.",
+      "Disuelve el miso fuera del fuego y sirve con fideos y cebolleta."
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Hummus de remolacha",
+    "category": "Snack",
+    "emoji": "🫓",
+    "description": "Cremoso, vibrante y perfecto para picar.",
+    "time": 10,
+    "servings": 6,
+    "difficulty": "Muy fácil",
+    "kcal": 165,
+    "protein": 6,
+    "carbs": 18,
+    "fat": 8,
+    "fiber": 5,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Sésamo.",
+    "storage": "4 días refrigerado.",
+    "tip": "Sírvelo con bastones de verdura para más fibra.",
+    "ingredients": [
+      "400 g de garbanzos cocidos",
+      "180 g de remolacha cocida",
+      "2 cdas de tahini",
+      "1 limón",
+      "1 diente de ajo",
+      "1 cda de aceite de oliva",
+      "Comino y sal"
+    ],
+    "steps": [
+      "Tritura todos los ingredientes hasta obtener una crema.",
+      "Ajusta textura con agua fría.",
+      "Sirve con aceite, semillas y crudités."
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Bolitas de cacao y almendra",
+    "category": "Snack",
+    "emoji": "🍫",
+    "description": "Energía natural en un bocado.",
+    "time": 15,
+    "servings": 10,
+    "difficulty": "Muy fácil",
+    "kcal": 120,
+    "protein": 4,
+    "carbs": 14,
+    "fat": 7,
+    "fiber": 3,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Frutos secos.",
+    "storage": "7 días refrigeradas o 2 meses congeladas.",
+    "tip": "Humedece las manos para formar las bolitas.",
+    "ingredients": [
+      "150 g de dátiles sin hueso",
+      "100 g de almendras",
+      "25 g de cacao puro",
+      "2 cdas de coco rallado",
+      "1 pizca de sal",
+      "1-2 cdas de agua"
+    ],
+    "steps": [
+      "Tritura almendras hasta obtener migas.",
+      "Añade dátiles, cacao, sal y agua; procesa.",
+      "Forma 10 bolitas y rebózalas en coco."
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Garbanzos crujientes al pimentón",
+    "category": "Snack",
+    "emoji": "🫘",
+    "description": "Un picoteo especiado, crujiente y nutritivo.",
+    "time": 35,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "kcal": 185,
+    "protein": 8,
+    "carbs": 27,
+    "fat": 6,
+    "fiber": 7,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Sin alérgenos principales.",
+    "storage": "2 días en recipiente sin cerrar del todo.",
+    "tip": "Seca muy bien los garbanzos antes de hornear.",
+    "ingredients": [
+      "400 g de garbanzos cocidos",
+      "1 cda de aceite de oliva",
+      "1 cdta de pimentón",
+      "1/2 cdta de comino",
+      "Ajo en polvo",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Calienta el horno a 200 °C y seca los garbanzos.",
+      "Mézclalos con aceite y especias.",
+      "Hornea 25-30 minutos, removiendo a mitad."
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Manzanas asadas con yogur",
+    "category": "Postre",
+    "emoji": "🍎",
+    "description": "Aromáticas, cálidas y naturalmente dulces.",
+    "time": 30,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "kcal": 210,
+    "protein": 8,
+    "carbs": 36,
+    "fat": 5,
+    "fiber": 6,
+    "tags": [
+      "Vegetariana",
+      "Sin gluten"
+    ],
+    "allergens": "Lácteos y frutos secos.",
+    "storage": "3 días refrigeradas.",
+    "tip": "Elige manzanas firmes para que mantengan textura.",
+    "ingredients": [
+      "4 manzanas",
+      "2 cdtas de canela",
+      "30 g de nueces",
+      "2 cdtas de miel",
+      "300 g de yogur griego",
+      "1/2 limón"
+    ],
+    "steps": [
+      "Corta las manzanas y mezcla con limón y canela.",
+      "Hornea a 190 °C durante 22 minutos.",
+      "Sirve templadas con yogur, nueces y miel."
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Mousse rápida de chocolate",
+    "category": "Postre",
+    "emoji": "🍮",
+    "description": "Intensa y sedosa, hecha con aguacate.",
+    "time": 10,
+    "servings": 4,
+    "difficulty": "Muy fácil",
+    "kcal": 245,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 16,
+    "fiber": 8,
+    "tags": [
+      "Vegana",
+      "Sin gluten"
+    ],
+    "allergens": "Puede contener frutos secos.",
+    "storage": "2 días refrigerada.",
+    "tip": "Usa aguacates maduros y cacao de buena calidad.",
+    "ingredients": [
+      "2 aguacates maduros",
+      "45 g de cacao puro",
+      "60 ml de bebida vegetal",
+      "3 cdas de sirope de arce",
+      "1 cdta de vainilla",
+      "1 pizca de sal",
+      "Frambuesas para servir"
+    ],
+    "steps": [
+      "Tritura todos los ingredientes hasta que quede sedoso.",
+      "Ajusta dulzor y textura al gusto.",
+      "Refrigera 30 minutos y sirve con frambuesas."
+    ]
+  }
+]

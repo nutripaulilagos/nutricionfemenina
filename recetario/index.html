@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vida en tu plato | Recetario de Paulina Lagos</title>
+  <meta name="description" content="20 recetas saludables con buscador, filtros, ingredientes, preparación e información nutricional orientativa.">
+  <meta name="theme-color" content="#f6f1e7">
+  <meta property="og:title" content="Vida en tu plato | Paulina Lagos">
+  <meta property="og:description" content="20 recetas saludables, fáciles y llenas de sabor.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://nutripaulilagos.github.io/nutricionfemenina/recetario/og.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#recetas">Saltar a las recetas</a>
+  <main>
+    <header class="nav">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio del recetario"><span aria-hidden="true">V</span>Vida en tu plato</a>
+      <nav aria-label="Navegación del recetario">
+        <a href="#recetas">Recetas</a>
+        <a href="#guia">Guía</a>
+        <a href="../" target="_top">Volver a la consulta</a>
+      </nav>
+      <a class="download small" href="recetario-vida-en-tu-plato.pdf" download>Descargar PDF</a>
+    </header>
+
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">20 recetas · fáciles · nutritivas</p>
+        <h1>Comer bien,<br><em>sin complicarte.</em></h1>
+        <p class="intro">Ideas reales para disfrutar cada día: ingredientes sencillos, pasos claros e información nutricional orientativa.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#recetas">Explorar recetas ↓</a>
+          <a class="text-link" href="recetario-vida-en-tu-plato.pdf" download>Descargar el recetario ↗</a>
+        </div>
+        <div class="stats" aria-label="Resumen del recetario">
+          <div><strong>20</strong><span>recetas</span></div>
+          <div><strong>≤ 40</strong><span>minutos</span></div>
+          <div><strong>100%</strong><span>sabrosas</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Selección de recetas saludables">
+        <img class="hero-photo" src="recipes/05.webp" alt="Bowl mediterráneo de quinoa con verduras frescas" width="1100" height="1100">
+        <span class="note n1">fibra</span>
+        <span class="note n2">color</span>
+        <span class="note n3">energía</span>
+      </div>
+    </section>
+
+    <section class="guide" id="guia">
+      <p class="eyebrow">Una fórmula sencilla</p>
+      <h2>Construye un plato que te cuide</h2>
+      <div class="formula">
+        <div><b>½</b><span>Verduras y frutas</span><small>Color, fibra y variedad</small></div>
+        <div><b>¼</b><span>Proteína</span><small>Animal o vegetal</small></div>
+        <div><b>¼</b><span>Cereal integral</span><small>Energía que dura</small></div>
+        <div><b>+</b><span>Grasa saludable</span><small>Aceite de oliva, semillas o frutos secos</small></div>
+      </div>
+    </section>
+
+    <section class="recipes-section" id="recetas">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Tu menú, a tu manera</p>
+          <h2>Encuentra tu próxima receta</h2>
+        </div>
+        <p id="recipe-count" aria-live="polite">Cargando recetas…</p>
+      </div>
+      <div class="tools">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="recipe-search" type="search" aria-label="Buscar recetas" placeholder="Busca por receta o ingrediente…"></label>
+        <div class="chips" aria-label="Filtrar por comida">
+          <button class="active" type="button" data-category="Todas" aria-pressed="true">Todas</button>
+          <button type="button" data-category="Desayuno" aria-pressed="false">Desayuno</button>
+          <button type="button" data-category="Almuerzo" aria-pressed="false">Almuerzo</button>
+          <button type="button" data-category="Cena" aria-pressed="false">Cena</button>
+          <button type="button" data-category="Snack" aria-pressed="false">Snack</button>
+          <button type="button" data-category="Postre" aria-pressed="false">Postre</button>
+        </div>
+        <label class="diet">Preferencia
+          <select id="diet-filter">
+            <option>Todas</option>
+            <option>Vegetariana</option>
+            <option>Vegana</option>
+            <option>Sin gluten</option>
+            <option>Alta proteína</option>
+          </select>
+        </label>
+      </div>
+      <div class="grid" id="recipe-grid"></div>
+      <div class="empty" id="empty-state" hidden>
+        <span aria-hidden="true">🥣</span>
+        <h3>No encontramos coincidencias</h3>
+        <p>Prueba con otro ingrediente o elimina algún filtro.</p>
+      </div>
+      <noscript>Activa JavaScript para usar el buscador y abrir las recetas. También puedes descargar el recetario en PDF.</noscript>
+    </section>
+
+    <section class="download-band">
+      <div>
+        <p class="eyebrow">Para guardar y compartir</p>
+        <h2>Las 20 recetas, también en PDF</h2>
+        <p>Un recetario cuidado, listo para consultar sin conexión o imprimir.</p>
+      </div>
+      <a class="primary light" href="recetario-vida-en-tu-plato.pdf" download>Descargar gratis ↓</a>
+    </section>
+
+    <footer>
+      <a class="brand" href="#inicio"><span aria-hidden="true">V</span>Vida en tu plato</a>
+      <p>Comer saludable también es disfrutar.</p>
+      <small>Información nutricional orientativa. Adapta las recetas a tus necesidades y alergias.</small>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="recipe-modal" role="presentation" hidden>
+    <article class="modal" role="dialog" aria-modal="true" aria-labelledby="recipe-title">
+      <button class="close" type="button" aria-label="Cerrar receta">×</button>
+      <img class="modal-photo" id="modal-photo" src="" alt="" width="1100" height="1100">
+      <div class="modal-title">
+        <div>
+          <p class="eyebrow" id="modal-category"></p>
+          <h2 id="recipe-title"></h2>
+          <p id="modal-description"></p>
+        </div>
+      </div>
+      <div class="quick" id="modal-quick"></div>
+      <div class="modal-grid">
+        <section><h3>Ingredientes</h3><ul id="modal-ingredients"></ul></section>
+        <section><h3>Preparación</h3><ol id="modal-steps"></ol></section>
+      </div>
+      <div class="nutrition">
+        <h3>Por porción</h3>
+        <div id="modal-nutrition"></div>
+      </div>
+      <div class="details" id="modal-details"></div>
+    </article>
+  </div>
+</body>
+</html>
