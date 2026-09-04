@@ -684,7 +684,7 @@ section {
 }
 /* Revista digital */
 .recetario {
-  background: linear-gradient(180deg, #fbf6f0 0%, #f4f8f3 100%);
+  background: linear-gradient(180deg, #fff8fc 0%, #f3faff 100%);
 }
 
 .recetario-editorial {
@@ -704,10 +704,10 @@ section {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid rgba(67, 79, 70, .12);
+  border: 1px solid var(--line);
   border-radius: 22px;
   background: #fff;
-  box-shadow: 0 18px 42px rgba(70, 61, 54, .08);
+  box-shadow: var(--shadow);
 }
 
 .recetario-card-destacada .recetario-card-imagen {
@@ -719,7 +719,7 @@ section {
   display: block;
   overflow: hidden;
   aspect-ratio: 1200 / 624;
-  background: #f2eae2;
+  background: var(--soft);
 }
 
 .recetario-card-imagen img {
