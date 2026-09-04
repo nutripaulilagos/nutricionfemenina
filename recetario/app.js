@@ -1,10 +1,9 @@
 (() => {
-  const state = { recipes: [], query: "", category: "Todas", diet: "Todas" };
+  const state = { recipes: [], query: "", category: "Todas" };
   const grid = document.querySelector("#recipe-grid");
   const count = document.querySelector("#recipe-count");
   const empty = document.querySelector("#empty-state");
   const search = document.querySelector("#recipe-search");
-  const diet = document.querySelector("#diet-filter");
   const chips = document.querySelector(".chips");
   const modal = document.querySelector("#recipe-modal");
   const closeButton = modal.querySelector(".close");
@@ -12,35 +11,35 @@
 
   const imagePath = (id) => `recipes/${String(id).padStart(2, "0")}.webp`;
   const normalize = (value) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const categoryLabel = (recipe) => recipe.categories.join(" · ");
 
   function filteredRecipes() {
     const query = normalize(state.query.trim());
     return state.recipes.filter((recipe) => {
       const searchable = normalize([
         recipe.title,
-        recipe.description,
-        ...recipe.ingredients,
-        ...recipe.tags
+        recipe.note,
+        ...recipe.categories,
+        ...recipe.ingredients
       ].join(" "));
-      return (state.category === "Todas" || recipe.category === state.category)
-        && (state.diet === "Todas" || recipe.tags.includes(state.diet))
+      return (state.category === "Todas" || recipe.categories.includes(state.category))
         && (!query || searchable.includes(query));
     });
   }
 
-  function recipeCard(recipe, index) {
+  function recipeCard(recipe) {
     const article = document.createElement("article");
     article.className = "card";
     article.innerHTML = `
-      <button class="card-art tone-${index % 6}" type="button" data-recipe-id="${recipe.id}" aria-label="Abrir ${recipe.title}">
-        <img src="${imagePath(recipe.id)}" alt="${recipe.title}" width="1100" height="1100" loading="lazy">
-        <i>${recipe.category}</i>
+      <button class="card-art" type="button" data-recipe-id="${recipe.id}" aria-label="Abrir ${recipe.title}">
+        <img src="${imagePath(recipe.id)}" alt="${recipe.title}" width="1200" height="624" loading="lazy">
+        <i>${categoryLabel(recipe)}</i>
       </button>
       <div class="card-body">
-        <div class="meta"><span>◷ ${recipe.time} min</span><span>• ${recipe.kcal} kcal</span></div>
+        <div class="meta"><span>◷ ${recipe.time}</span><span>• ${recipe.servings}</span></div>
         <h3>${recipe.title}</h3>
-        <p>${recipe.description}</p>
-        <div class="tags">${recipe.tags.slice(0, 2).map((tag) => `<span>${tag}</span>`).join("")}</div>
+        <p>${recipe.note}</p>
+        <div class="tags">${recipe.categories.map((category) => `<span>${category}</span>`).join("")}</div>
         <button class="open" type="button" data-recipe-id="${recipe.id}">Ver receta <span aria-hidden="true">→</span></button>
       </div>`;
     return article;
@@ -61,48 +60,40 @@
     }));
   }
 
-  function openRecipe(recipe, trigger) {
+  function setRecipeParameter(recipeId) {
+    const url = new URL(window.location.href);
+    if (recipeId) url.searchParams.set("receta", recipeId);
+    else url.searchParams.delete("receta");
+    window.history.replaceState({}, "", url);
+  }
+
+  function openRecipe(recipe, trigger = null, updateUrl = true) {
     returnFocus = trigger;
     document.querySelector("#modal-photo").src = imagePath(recipe.id);
     document.querySelector("#modal-photo").alt = recipe.title;
-    document.querySelector("#modal-category").textContent = recipe.category;
+    document.querySelector("#modal-category").textContent = categoryLabel(recipe);
     document.querySelector("#recipe-title").textContent = recipe.title;
-    document.querySelector("#modal-description").textContent = recipe.description;
     document.querySelector("#modal-quick").innerHTML = `
-      <span>◷ <b>${recipe.time} min</b></span>
-      <span>♨ <b>${recipe.kcal} kcal</b></span>
-      <span>◉ <b>${recipe.servings} porciones</b></span>
-      <span>◇ <b>${recipe.difficulty}</b></span>`;
+      <span>Tiempo <b>${recipe.time}</b></span>
+      <span>Rinde <b>${recipe.servings}</b></span>`;
     addListItems(document.querySelector("#modal-ingredients"), recipe.ingredients);
     addListItems(document.querySelector("#modal-steps"), recipe.steps);
-    document.querySelector("#modal-nutrition").innerHTML = `
-      <span><b>${recipe.kcal}</b> kcal</span>
-      <span><b>${recipe.protein} g</b> proteína</span>
-      <span><b>${recipe.carbs} g</b> carbohidratos</span>
-      <span><b>${recipe.fat} g</b> grasas</span>
-      <span><b>${recipe.fiber} g</b> fibra</span>`;
-    document.querySelector("#modal-details").innerHTML = `
-      <p><b>Alérgenos:</b> ${recipe.allergens}</p>
-      <p><b>Conservación:</b> ${recipe.storage}</p>
-      <p><b>Consejo:</b> ${recipe.tip}</p>`;
+    document.querySelector("#modal-note p").textContent = recipe.note;
     modal.hidden = false;
     document.body.classList.add("modal-open");
+    if (updateUrl) setRecipeParameter(recipe.id);
     closeButton.focus();
   }
 
   function closeRecipe() {
     modal.hidden = true;
     document.body.classList.remove("modal-open");
+    setRecipeParameter(null);
     if (returnFocus) returnFocus.focus();
   }
 
   search.addEventListener("input", () => {
     state.query = search.value;
-    render();
-  });
-
-  diet.addEventListener("change", () => {
-    state.diet = diet.value;
     render();
   });
 
@@ -133,7 +124,7 @@
     if (event.key === "Escape" && !modal.hidden) closeRecipe();
   });
 
-  fetch("recetas.json")
+  fetch("recetas.json?v=20260904-mediterraneo")
     .then((response) => {
       if (!response.ok) throw new Error("No se pudo cargar el recetario");
       return response.json();
@@ -141,6 +132,9 @@
     .then((recipes) => {
       state.recipes = recipes;
       render();
+      const requestedId = Number(new URLSearchParams(window.location.search).get("receta"));
+      const requestedRecipe = state.recipes.find((recipe) => recipe.id === requestedId);
+      if (requestedRecipe) openRecipe(requestedRecipe, null, false);
     })
     .catch(() => {
       count.textContent = "No pudimos cargar las recetas";

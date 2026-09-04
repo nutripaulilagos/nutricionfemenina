@@ -58,7 +58,7 @@ button,input:where([type=button],[type=reset],[type=submit]){appearance:button}
 .grid{display:grid}
 .table{display:table}
 }
-:root{--ink:#17352d;--cream:#f6f1e7;--paper:#fffdf8;--sage:#b8c9a3;--lime:#dce88e;--orange:#ef8354;--line:#d9ddcf}
+:root{--ink:#34433a;--cream:#f6f0e8;--paper:#fffdf9;--sage:#aebea7;--lime:#e3ebd4;--orange:#e6a17e;--line:#e2d9cf}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--font-sans),sans-serif;margin:0}
@@ -66,7 +66,7 @@ button,input,select{font:inherit}
 a{color:inherit;text-decoration:none}
 .nav{border-bottom:1px solid var(--line);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);z-index:20;background:#fffdf8f0;justify-content:space-between;align-items:center;height:78px;padding:0 5vw;display:flex;position:sticky;top:0}
 .brand{font-family:var(--font-serif);align-items:center;gap:10px;font-size:20px;font-weight:700;display:flex}
-.brand span{background:var(--ink);width:34px;height:34px;color:var(--lime);border-radius:50% 50% 44% 56%;place-items:center;display:grid;transform:rotate(-8deg)}
+.brand span{background:var(--ink);width:36px;height:36px;color:#fff;border-radius:50%;place-items:center;display:grid;font-family:var(--font-sans);font-size:11px;letter-spacing:.03em;transform:rotate(-5deg)}
 nav{gap:32px;font-size:14px;display:flex}
 .download,.primary{background:var(--ink);color:#fff;border-radius:100px;padding:14px 20px;font-weight:700}
 .small{padding:11px 16px;font-size:13px}
@@ -227,3 +227,163 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .modal-open{overflow:hidden}
 noscript{display:block;margin-top:24px;padding:18px;border-radius:12px;background:#fff3cd}
 @media (width<=620px){.nav .brand{font-size:17px}.nav .brand span{width:31px;height:31px}.hero h1{letter-spacing:-.04em}.card{border-radius:18px}}
+
+/* Edición mediterránea 2026 */
+.hero-note {
+  margin: -14px 0 28px;
+  color: #6b746d;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.sugar-note {
+  display: block;
+  max-width: 560px;
+  margin-top: 22px;
+  color: #6b746d;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.guide-intro {
+  max-width: 800px;
+  margin: 24px auto 0;
+  color: #5f6e67;
+  font-size: 17px;
+  line-height: 1.75;
+}
+.formula b {
+  font-family: var(--font-sans);
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+.formula small {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.tools {
+  align-items: flex-start;
+}
+.search {
+  max-width: 440px;
+}
+.chips button {
+  min-height: 44px;
+  font-size: 13px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-art {
+  height: auto;
+  aspect-ratio: 1200 / 624;
+}
+.card-art i {
+  max-width: calc(100% - 28px);
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.meta {
+  flex-wrap: wrap;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.card h3 {
+  font-size: clamp(24px, 2.4vw, 29px);
+}
+.card p {
+  display: -webkit-box;
+  min-height: 4.65em;
+  overflow: hidden;
+  font-size: 14px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+.tags {
+  flex-wrap: wrap;
+}
+.tags span {
+  font-size: 12px;
+}
+.open {
+  margin-top: auto;
+  min-height: 46px;
+  font-size: 15px;
+}
+.modal-photo {
+  height: auto;
+  aspect-ratio: 1200 / 624;
+}
+.quick {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.quick span {
+  font-size: 13px;
+}
+.quick b {
+  font-size: 15px;
+}
+.modal-grid section {
+  min-width: 0;
+}
+.modal li {
+  font-size: 15px;
+}
+.details {
+  margin-top: 26px;
+  padding: 20px 22px;
+  border-left: 4px solid var(--orange);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.details p {
+  margin: 7px 0 0;
+}
+.download-band p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+@media (width<=620px) {
+  .hero h1 {
+    font-size: clamp(44px, 14vw, 58px);
+  }
+  .hero-note {
+    line-height: 1.6;
+  }
+  .stats {
+    flex-wrap: wrap;
+    margin-top: 52px;
+  }
+  .formula div {
+    padding: 26px;
+  }
+  .search {
+    max-width: none;
+    min-width: 0;
+  }
+  .chips {
+    width: 100%;
+  }
+  .modal-grid {
+    gap: 20px;
+  }
+  .modal-title h2 {
+    font-size: 32px;
+    line-height: 1.08;
+  }
+  .modal-photo {
+    height: auto;
+  }
+  .card p {
+    min-height: auto;
+  }
+}

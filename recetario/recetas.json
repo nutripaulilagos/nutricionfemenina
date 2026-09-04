@@ -1,725 +1,722 @@
 [
   {
     "id": 1,
-    "title": "Avena nocturna de frutos rojos",
-    "category": "Desayuno",
-    "emoji": "🫐",
-    "description": "Cremosa, fresca y lista al despertar.",
-    "time": 10,
-    "servings": 2,
-    "difficulty": "Muy fácil",
-    "kcal": 340,
-    "protein": 14,
-    "carbs": 48,
-    "fat": 10,
-    "fiber": 9,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten"
+    "title": "Avena nocturna con frutos rojos y nueces",
+    "categories": [
+      "Desayunos"
     ],
-    "allergens": "Lácteos. Puede contener frutos secos.",
-    "storage": "Hasta 2 días refrigerada.",
-    "tip": "Usa avena certificada sin gluten si lo necesitas.",
+    "time": "10 min + reposo",
+    "servings": "2 porciones",
     "ingredients": [
-      "100 g de avena en copos",
-      "250 ml de leche o bebida vegetal",
-      "150 g de yogur natural",
-      "1 cda de semillas de chía",
-      "120 g de frutos rojos",
-      "1 cdta de miel",
-      "Canela al gusto"
+      "1 taza de avena integral",
+      "1 taza de leche o bebida vegetal sin azúcar",
+      "1/2 taza de yogur natural o kéfir",
+      "1 cda de chía",
+      "1 taza de frutos rojos",
+      "2 cdas de nueces picadas",
+      "Canela y ralladura de naranja"
     ],
     "steps": [
-      "Mezcla la avena, leche, yogur, chía, miel y canela.",
-      "Reparte en dos frascos y refrigera toda la noche.",
-      "Añade los frutos rojos justo antes de servir."
-    ]
+      "Mezcla avena, leche, yogur, chía y canela.",
+      "Refrigera tapado entre 6 y 12 horas.",
+      "Sirve con frutos rojos, nueces y ralladura de naranja."
+    ],
+    "note": "El dulzor proviene solamente de la fruta. Conserva refrigerada hasta 48 horas."
   },
   {
     "id": 2,
-    "title": "Tostada de aguacate y huevo",
-    "category": "Desayuno",
-    "emoji": "🥑",
-    "description": "Crujiente, saciante y rica en proteína.",
-    "time": 12,
-    "servings": 1,
-    "difficulty": "Fácil",
-    "kcal": 390,
-    "protein": 17,
-    "carbs": 34,
-    "fat": 22,
-    "fiber": 8,
-    "tags": [
-      "Vegetariana",
-      "Alta proteína"
+    "title": "Bowl de kéfir, kiwi y semillas",
+    "categories": [
+      "Desayunos",
+      "Fermentados"
     ],
-    "allergens": "Huevo y gluten.",
-    "storage": "Consumir recién hecha.",
-    "tip": "Añade limón al aguacate para mantener su color.",
+    "time": "8 min",
+    "servings": "1 porción",
     "ingredients": [
-      "1 rebanada de pan integral",
-      "1/2 aguacate",
-      "2 huevos",
-      "Tomates cherry",
-      "Zumo de limón",
-      "Pimienta y semillas"
+      "3/4 taza de kéfir de leche natural",
+      "1 kiwi en láminas",
+      "4 frutillas en láminas",
+      "1 cda de chía",
+      "1 cda de semillas de zapallo",
+      "1/4 cdta de canela"
     ],
     "steps": [
-      "Tuesta el pan y machaca el aguacate con limón.",
-      "Cocina los huevos a tu gusto.",
-      "Monta la tostada con tomates, pimienta y semillas."
-    ]
+      "Vierte el kéfir frío en un bowl.",
+      "Distribuye la fruta y termina con semillas y canela.",
+      "Consume de inmediato para mantener su textura."
+    ],
+    "note": "Elige kéfir sin azúcar añadida. Si eres inmunosuprimida, consulta antes de consumir fermentados caseros."
   },
   {
     "id": 3,
-    "title": "Tortitas de plátano y avena",
-    "category": "Desayuno",
-    "emoji": "🥞",
-    "description": "Tiernas, sin azúcar añadido y familiares.",
-    "time": 18,
-    "servings": 2,
-    "difficulty": "Fácil",
-    "kcal": 310,
-    "protein": 13,
-    "carbs": 49,
-    "fat": 8,
-    "fiber": 6,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten"
+    "title": "Huevos cremosos con espinaca y palta",
+    "categories": [
+      "Desayunos"
     ],
-    "allergens": "Huevo. Puede contener lácteos.",
-    "storage": "2 días refrigeradas o 1 mes congeladas.",
-    "tip": "Cocina a fuego medio-bajo para que no se quemen.",
+    "time": "15 min",
+    "servings": "2 porciones",
     "ingredients": [
-      "1 plátano maduro",
-      "2 huevos",
-      "80 g de avena molida",
-      "1/2 cdta de canela",
-      "1 cdta de aceite de oliva",
-      "Yogur y fruta para servir"
+      "4 huevos",
+      "2 tazas de espinaca",
+      "1 palta pequeña",
+      "1 taza de tomates cherry",
+      "2 cdtas de aceite de oliva",
+      "Pimienta negra y orégano"
     ],
     "steps": [
-      "Tritura plátano, huevos, avena y canela.",
-      "Engrasa ligeramente una sartén caliente.",
-      "Cocina porciones 2 minutos por lado y sirve."
-    ]
+      "Saltea la espinaca con 1 cdta de aceite hasta que baje su volumen.",
+      "Cocina los huevos a fuego bajo, removiendo, hasta que estén cremosos pero completamente cuajados.",
+      "Sirve con palta, tomates, orégano y el resto del aceite."
+    ],
+    "note": "Para embarazo o inmunosupresión, cocina el huevo hasta que clara y yema estén firmes."
   },
   {
     "id": 4,
-    "title": "Pudín de chía tropical",
-    "category": "Desayuno",
-    "emoji": "🥭",
-    "description": "Un desayuno fresco con mango y coco.",
-    "time": 10,
-    "servings": 2,
-    "difficulty": "Muy fácil",
-    "kcal": 295,
-    "protein": 8,
-    "carbs": 32,
-    "fat": 16,
-    "fiber": 12,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Pudín de chía, mango y maracuyá",
+    "categories": [
+      "Desayunos"
     ],
-    "allergens": "Puede contener frutos secos.",
-    "storage": "Hasta 3 días refrigerado.",
-    "tip": "Remueve de nuevo a los 10 minutos para evitar grumos.",
+    "time": "10 min + reposo",
+    "servings": "2 porciones",
     "ingredients": [
-      "60 g de semillas de chía",
-      "300 ml de bebida de coco",
-      "1 mango",
-      "1 lima",
-      "2 cdas de coco rallado",
-      "Menta fresca"
+      "1/4 taza de semillas de chía",
+      "1 taza de leche o bebida vegetal sin azúcar",
+      "1/2 cdta de vainilla natural",
+      "1 mango pequeño en cubos",
+      "Pulpa de 1 maracuyá",
+      "2 cdas de almendras laminadas"
     ],
     "steps": [
-      "Mezcla chía y bebida de coco; reposa 4 horas.",
-      "Tritura la mitad del mango con zumo de lima.",
-      "Sirve en capas con mango, coco y menta."
-    ]
+      "Mezcla chía, leche y vainilla; remueve otra vez a los 10 minutos.",
+      "Refrigera al menos 4 horas.",
+      "Sirve con mango, maracuyá y almendras."
+    ],
+    "note": "No necesita miel ni endulzante: usa mango maduro para un sabor naturalmente dulce."
   },
   {
     "id": 5,
-    "title": "Bowl mediterráneo de quinoa",
-    "category": "Almuerzo",
-    "emoji": "🥗",
-    "description": "Colorido, completo y perfecto para llevar.",
-    "time": 25,
-    "servings": 2,
-    "difficulty": "Fácil",
-    "kcal": 485,
-    "protein": 18,
-    "carbs": 61,
-    "fat": 20,
-    "fiber": 12,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten"
+    "title": "Tostada de masa madre, palta y salmón",
+    "categories": [
+      "Desayunos",
+      "Pescados"
     ],
-    "allergens": "Lácteos y sésamo.",
-    "storage": "3 días refrigerado, aliño aparte.",
-    "tip": "Enjuaga la quinoa para retirar su sabor amargo.",
+    "time": "10 min",
+    "servings": "2 porciones",
     "ingredients": [
-      "140 g de quinoa",
-      "200 g de garbanzos cocidos",
-      "1 pepino",
-      "200 g de tomates cherry",
-      "60 g de queso feta",
-      "Aceitunas",
-      "2 cdas de tahini",
-      "Limón y perejil"
+      "2 rebanadas de pan integral de masa madre",
+      "1 palta",
+      "100 g de salmón cocido o ahumado de bajo sodio",
+      "1/2 limón",
+      "Eneldo, pimienta y hojas verdes"
     ],
     "steps": [
-      "Cuece la quinoa y deja enfriar.",
-      "Corta las verduras y mezcla con quinoa y garbanzos.",
-      "Añade feta y aceitunas; aliña con tahini y limón."
-    ]
+      "Tuesta el pan y aplasta encima la palta con limón.",
+      "Agrega el salmón y termina con eneldo y pimienta.",
+      "Acompaña con hojas verdes."
+    ],
+    "note": "Para reducir sodio, prefiere salmón cocido. En embarazo, evita salmón ahumado refrigerado salvo que se caliente completamente."
   },
   {
     "id": 6,
-    "title": "Salmón al limón con verduras",
-    "category": "Almuerzo",
-    "emoji": "🐟",
-    "description": "Jugoso, aromático y listo en una bandeja.",
-    "time": 30,
-    "servings": 2,
-    "difficulty": "Fácil",
-    "kcal": 510,
-    "protein": 38,
-    "carbs": 28,
-    "fat": 27,
-    "fiber": 7,
-    "tags": [
-      "Sin gluten",
-      "Alta proteína"
+    "title": "Batido de berries, jengibre y cúrcuma",
+    "categories": [
+      "Bebidas"
     ],
-    "allergens": "Pescado.",
-    "storage": "2 días refrigerado.",
-    "tip": "No sobrecocines el salmón; debe quedar jugoso.",
+    "time": "5 min",
+    "servings": "2 vasos",
     "ingredients": [
-      "2 lomos de salmón",
-      "1 calabacín",
-      "1 pimiento rojo",
-      "1 cebolla morada",
-      "300 g de patata pequeña",
-      "1 limón",
-      "2 cdas de aceite de oliva",
-      "Eneldo, ajo, sal y pimienta"
+      "1 1/2 tazas de frutos rojos congelados",
+      "1 taza de kéfir o yogur natural",
+      "1/2 taza de agua",
+      "1 cm de jengibre fresco",
+      "1/4 cdta de cúrcuma",
+      "1 pizca mínima de pimienta negra",
+      "1 cda de linaza molida"
     ],
     "steps": [
-      "Calienta el horno a 200 °C y corta las verduras.",
-      "Hornea patata y verduras con aceite durante 15 minutos.",
-      "Añade el salmón, limón y eneldo; hornea 10-12 minutos."
-    ]
+      "Licúa todos los ingredientes hasta obtener una textura uniforme.",
+      "Ajusta con agua si lo prefieres más ligero.",
+      "Sirve de inmediato, sin colar."
+    ],
+    "note": "La cúrcuma y la pimienta están en dosis culinarias, no terapéuticas."
   },
   {
     "id": 7,
-    "title": "Curry suave de garbanzos",
-    "category": "Almuerzo",
-    "emoji": "🍛",
-    "description": "Cremoso, vegetal y lleno de especias.",
-    "time": 30,
-    "servings": 4,
-    "difficulty": "Fácil",
-    "kcal": 430,
-    "protein": 17,
-    "carbs": 59,
-    "fat": 16,
-    "fiber": 14,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Salmón al horno con naranja e hinojo",
+    "categories": [
+      "Pescados"
     ],
-    "allergens": "Sin alérgenos principales; revisa el caldo.",
-    "storage": "4 días refrigerado o 2 meses congelado.",
-    "tip": "Añade espinaca al final para conservar el color.",
+    "time": "30 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "500 g de garbanzos cocidos",
-      "400 g de tomate triturado",
-      "200 ml de leche de coco",
-      "1 cebolla",
-      "2 dientes de ajo",
-      "2 cdtas de curry",
-      "150 g de espinacas",
-      "Cilantro y lima"
+      "4 filetes de salmón de 140 g",
+      "1 bulbo de hinojo en láminas",
+      "2 naranjas",
+      "1 cda de aceite de oliva",
+      "1 diente de ajo",
+      "Eneldo, pimienta y pizca de sal"
     ],
     "steps": [
-      "Sofríe cebolla, ajo y curry durante 5 minutos.",
-      "Añade tomate, coco y garbanzos; cuece 15 minutos.",
-      "Incorpora espinaca, lima y cilantro antes de servir."
-    ]
+      "Calienta el horno a 190 °C y dispone el hinojo en una fuente.",
+      "Añade el salmón, gajos de naranja, ajo, aceite y pimienta.",
+      "Hornea 14 a 18 minutos, hasta que el centro alcance cocción segura."
+    ],
+    "note": "Acompaña con quinoa o ensalada verde. No es necesario glasear con miel."
   },
   {
     "id": 8,
-    "title": "Pollo cítrico con arroz integral",
-    "category": "Almuerzo",
-    "emoji": "🍋",
-    "description": "Un clásico equilibrado con un giro fresco.",
-    "time": 35,
-    "servings": 3,
-    "difficulty": "Fácil",
-    "kcal": 525,
-    "protein": 42,
-    "carbs": 61,
-    "fat": 12,
-    "fiber": 7,
-    "tags": [
-      "Sin gluten",
-      "Alta proteína"
+    "title": "Merluza mediterránea con tomate y aceitunas",
+    "categories": [
+      "Pescados"
     ],
-    "allergens": "Soja si se usa tamari.",
-    "storage": "3 días refrigerado.",
-    "tip": "Corta el pollo uniforme para una cocción pareja.",
+    "time": "30 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "450 g de pechuga de pollo",
-      "180 g de arroz integral",
-      "1 brócoli",
-      "1 naranja",
-      "1 limón",
-      "1 cda de tamari",
+      "4 filetes de merluza",
+      "2 tazas de tomate triturado sin azúcar",
+      "1/2 taza de aceitunas negras",
+      "1 cebolla pequeña",
+      "2 dientes de ajo",
       "1 cda de aceite de oliva",
-      "Jengibre y ajo"
+      "Perejil, orégano y pimienta"
     ],
     "steps": [
-      "Cuece el arroz según el envase.",
-      "Saltea el pollo con aceite, ajo y jengibre.",
-      "Añade brócoli, zumos y tamari; cocina 6-8 minutos."
-    ]
+      "Sofríe cebolla y ajo en aceite durante 5 minutos.",
+      "Agrega tomate, orégano y aceitunas; cocina 8 minutos.",
+      "Incorpora la merluza, tapa y cocina 8 a 10 minutos. Termina con perejil."
+    ],
+    "note": "Enjuaga las aceitunas si necesitas disminuir el sodio."
   },
   {
     "id": 9,
-    "title": "Pasta integral con pesto verde",
-    "category": "Almuerzo",
-    "emoji": "🍝",
-    "description": "Rápida, fragante y cargada de vegetales.",
-    "time": 20,
-    "servings": 3,
-    "difficulty": "Fácil",
-    "kcal": 495,
-    "protein": 19,
-    "carbs": 65,
-    "fat": 19,
-    "fiber": 10,
-    "tags": [
-      "Vegetariana"
+    "title": "Trucha con hierbas y almendras",
+    "categories": [
+      "Pescados"
     ],
-    "allergens": "Gluten, lácteos y frutos secos.",
-    "storage": "3 días refrigerada.",
-    "tip": "Reserva agua de cocción para aligerar el pesto.",
+    "time": "25 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "240 g de pasta integral",
-      "80 g de espinaca",
-      "30 g de albahaca",
-      "30 g de nueces",
-      "35 g de parmesano",
+      "4 filetes de trucha",
+      "1/3 taza de almendras laminadas",
+      "1 cda de aceite de oliva",
       "1 limón",
-      "1 diente de ajo",
-      "200 g de tomates cherry"
+      "Perejil y tomillo",
+      "Pimienta y pizca de sal"
     ],
     "steps": [
-      "Cuece la pasta al dente y reserva agua.",
-      "Tritura espinaca, albahaca, nueces, queso, limón y ajo.",
-      "Mezcla pasta, pesto y tomates; ajusta con agua de cocción."
-    ]
+      "Tuesta las almendras en sartén seca y reserva.",
+      "Cocina la trucha con aceite, primero por el lado de la piel.",
+      "Sirve con limón, hierbas y almendras tostadas."
+    ],
+    "note": "Evita quemar las almendras; un tostado suave conserva mejor su sabor."
   },
   {
     "id": 10,
-    "title": "Tacos de pescado y col",
-    "category": "Almuerzo",
-    "emoji": "🌮",
-    "description": "Frescos, crujientes y llenos de contraste.",
-    "time": 25,
-    "servings": 3,
-    "difficulty": "Fácil",
-    "kcal": 445,
-    "protein": 33,
-    "carbs": 48,
-    "fat": 15,
-    "fiber": 8,
-    "tags": [
-      "Sin gluten",
-      "Alta proteína"
+    "title": "Ensalada de atún y garbanzos",
+    "categories": [
+      "Pescados",
+      "Legumbres"
     ],
-    "allergens": "Pescado y lácteos.",
-    "storage": "Componentes separados hasta 2 días.",
-    "tip": "Calienta las tortillas justo antes de montar.",
+    "time": "15 min",
+    "servings": "3 porciones",
     "ingredients": [
-      "450 g de pescado blanco",
-      "9 tortillas de maíz",
-      "250 g de col morada",
-      "1 zanahoria",
-      "1 aguacate",
-      "120 g de yogur natural",
-      "2 limas",
-      "Pimentón, comino y cilantro"
+      "2 latas de atún al agua, drenadas",
+      "2 tazas de garbanzos cocidos",
+      "1 pepino",
+      "1 taza de tomates cherry",
+      "1/4 cebolla morada",
+      "2 cdas de aceite de oliva",
+      "Limón, perejil y pimienta"
     ],
     "steps": [
-      "Sazona el pescado y cocínalo 3 minutos por lado.",
-      "Mezcla col, zanahoria, lima y una pizca de sal.",
-      "Monta tacos con pescado, ensalada, aguacate y yogur."
-    ]
+      "Enjuaga y escurre los garbanzos.",
+      "Mezcla con atún, pepino, tomate y cebolla.",
+      "Aliña con aceite, limón, perejil y pimienta."
+    ],
+    "note": "Prefiere atún bajo en sodio y alterna especies de pescado a lo largo de la semana."
   },
   {
     "id": 11,
-    "title": "Crema de calabaza y jengibre",
-    "category": "Cena",
-    "emoji": "🎃",
-    "description": "Sedosa, reconfortante y muy ligera.",
-    "time": 35,
-    "servings": 4,
-    "difficulty": "Fácil",
-    "kcal": 240,
-    "protein": 7,
-    "carbs": 35,
-    "fat": 10,
-    "fiber": 8,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Bowl de sardinas, quinoa y palta",
+    "categories": [
+      "Pescados"
     ],
-    "allergens": "Sin alérgenos principales; revisa el caldo.",
-    "storage": "4 días refrigerada o 2 meses congelada.",
-    "tip": "Tuesta las semillas para sumar textura.",
+    "time": "20 min",
+    "servings": "2 porciones",
     "ingredients": [
-      "800 g de calabaza",
-      "1 puerro",
-      "1 zanahoria",
-      "1 trozo de jengibre",
-      "750 ml de caldo vegetal",
-      "100 ml de leche de coco",
-      "Semillas de calabaza",
-      "Aceite de oliva"
+      "1 taza de quinoa cocida",
+      "1 lata de sardinas en aceite de oliva",
+      "1 palta",
+      "1 pimentón asado",
+      "2 tazas de rúcula",
+      "1 cda de jugo de limón",
+      "Pimienta y perejil"
     ],
     "steps": [
-      "Sofríe puerro, zanahoria y jengibre.",
-      "Añade calabaza y caldo; cuece 22 minutos.",
-      "Tritura con leche de coco y sirve con semillas."
-    ]
+      "Divide la quinoa y la rúcula en dos bowls.",
+      "Añade pimentón, palta y sardinas escurridas.",
+      "Termina con limón, pimienta y perejil."
+    ],
+    "note": "Las sardinas con espina comestible aportan calcio; mastícalas bien o elige filetes sin espina."
   },
   {
     "id": 12,
-    "title": "Frittata de espinaca y tomate",
-    "category": "Cena",
-    "emoji": "🍳",
-    "description": "Proteína y verduras en una sola sartén.",
-    "time": 25,
-    "servings": 3,
-    "difficulty": "Fácil",
-    "kcal": 320,
-    "protein": 25,
-    "carbs": 10,
-    "fat": 21,
-    "fiber": 4,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten",
-      "Alta proteína"
+    "title": "Pescado en papillote con limón y zapallo italiano",
+    "categories": [
+      "Pescados"
     ],
-    "allergens": "Huevo y lácteos.",
-    "storage": "3 días refrigerada.",
-    "tip": "Termina bajo el grill para una superficie dorada.",
+    "time": "25 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "6 huevos",
-      "150 g de espinaca",
-      "200 g de tomates cherry",
-      "80 g de queso de cabra",
-      "1/2 cebolla",
-      "1 cda de aceite",
-      "Orégano, sal y pimienta"
+      "4 filetes de pescado blanco",
+      "2 zapallos italianos en láminas",
+      "1 limón en rodajas",
+      "1 cda de aceite de oliva",
+      "Tomillo, perejil y pimienta",
+      "4 hojas de papel para horno"
     ],
     "steps": [
-      "Sofríe cebolla, espinaca y tomates.",
-      "Bate huevos, sazona y vierte en la sartén.",
-      "Añade queso y cocina tapado o termina en el horno."
-    ]
+      "Calienta el horno a 190 °C.",
+      "Pon verduras, pescado, limón, aceite y hierbas en cada papel; sella los paquetes.",
+      "Hornea 14 a 18 minutos y abre con cuidado por el vapor."
+    ],
+    "note": "El papel debe ser apto para horno; evita que toque una llama directa."
   },
   {
     "id": 13,
-    "title": "Calabacines rellenos de lentejas",
-    "category": "Cena",
-    "emoji": "🥒",
-    "description": "Sabrosos, ligeros y ricos en fibra.",
-    "time": 40,
-    "servings": 4,
-    "difficulty": "Media",
-    "kcal": 355,
-    "protein": 20,
-    "carbs": 44,
-    "fat": 12,
-    "fiber": 15,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten"
+    "title": "Curry de lentejas rojas y zapallo",
+    "categories": [
+      "Platos vegetales"
     ],
-    "allergens": "Lácteos.",
-    "storage": "3 días refrigerados.",
-    "tip": "No vacíes demasiado el calabacín para que mantenga forma.",
+    "time": "35 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "4 calabacines",
-      "350 g de lentejas cocidas",
+      "1 taza de lentejas rojas",
+      "3 tazas de zapallo en cubos",
       "1 cebolla",
-      "300 g de tomate triturado",
-      "80 g de mozzarella",
+      "2 tomates picados",
+      "1 cdta de cúrcuma",
+      "1/4 cdta de pimienta negra",
       "1 cdta de comino",
-      "Perejil y aceite de oliva"
+      "1 cda de aceite de oliva",
+      "3 tazas de agua"
     ],
     "steps": [
-      "Parte los calabacines, vacía y hornea 12 minutos.",
-      "Sofríe cebolla y pulpa; añade tomate, lentejas y comino.",
-      "Rellena, cubre con queso y gratina 12 minutos."
-    ]
+      "Sofríe cebolla con aceite, comino, cúrcuma y pimienta por 1 minuto.",
+      "Añade tomate, lentejas, zapallo y agua.",
+      "Cocina 22 a 25 minutos, removiendo, hasta que esté cremoso."
+    ],
+    "note": "Sirve con cilantro y una cucharada de yogur natural, si lo deseas."
   },
   {
     "id": 14,
-    "title": "Ensalada tibia de boniato",
-    "category": "Cena",
-    "emoji": "🍠",
-    "description": "Dulce, tostada y con aliño de mostaza.",
-    "time": 35,
-    "servings": 2,
-    "difficulty": "Fácil",
-    "kcal": 440,
-    "protein": 16,
-    "carbs": 54,
-    "fat": 20,
-    "fiber": 12,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten"
+    "title": "Garbanzos y coliflor asados con tahini",
+    "categories": [
+      "Platos vegetales"
     ],
-    "allergens": "Lácteos y mostaza.",
-    "storage": "2 días refrigerada, aliño aparte.",
-    "tip": "Separa bien el boniato en la bandeja para que dore.",
+    "time": "40 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "500 g de boniato",
-      "120 g de rúcula",
-      "150 g de judías blancas",
-      "60 g de feta",
-      "30 g de nueces",
-      "1 cda de mostaza",
-      "1 cda de miel",
-      "Limón y aceite de oliva"
+      "1 coliflor en floretes",
+      "2 tazas de garbanzos cocidos",
+      "1 1/2 cdas de aceite de oliva",
+      "1/2 cdta de cúrcuma",
+      "Pimienta y comino",
+      "2 cdas de tahini",
+      "1 limón",
+      "Perejil"
     ],
     "steps": [
-      "Asa el boniato a 210 °C durante 25 minutos.",
-      "Mezcla mostaza, miel, limón y aceite.",
-      "Combina rúcula, judías, boniato, feta, nueces y aliño."
-    ]
+      "Hornea coliflor y garbanzos con aceite y especias a 210 °C por 25 minutos.",
+      "Mezcla tahini, limón y agua hasta formar una salsa ligera.",
+      "Sirve con la salsa y perejil."
+    ],
+    "note": "Seca bien los garbanzos antes de hornear para que queden dorados."
   },
   {
     "id": 15,
-    "title": "Sopa miso con tofu y setas",
-    "category": "Cena",
-    "emoji": "🍜",
-    "description": "Umami, ligera y lista en pocos minutos.",
-    "time": 20,
-    "servings": 3,
-    "difficulty": "Fácil",
-    "kcal": 265,
-    "protein": 19,
-    "carbs": 26,
-    "fat": 11,
-    "fiber": 6,
-    "tags": [
-      "Vegana",
-      "Alta proteína"
+    "title": "Quinoa con verduras asadas y palta",
+    "categories": [
+      "Platos vegetales"
     ],
-    "allergens": "Soja y gluten según el miso.",
-    "storage": "2 días refrigerada sin los fideos.",
-    "tip": "No hiervas el miso para cuidar su aroma.",
+    "time": "35 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "1 l de caldo vegetal",
-      "250 g de tofu firme",
-      "200 g de setas",
-      "120 g de fideos soba",
-      "3 cdas de miso",
-      "2 cebolletas",
-      "1 hoja de alga nori",
-      "Jengibre"
+      "2 tazas de quinoa cocida",
+      "1 berenjena",
+      "1 zapallo italiano",
+      "1 pimentón rojo",
+      "1 palta",
+      "2 cdas de aceite de oliva",
+      "Limón, orégano y pimienta"
     ],
     "steps": [
-      "Cuece los fideos y reserva.",
-      "Calienta el caldo con jengibre, tofu y setas 8 minutos.",
-      "Disuelve el miso fuera del fuego y sirve con fideos y cebolleta."
-    ]
+      "Asa las verduras con 1 cda de aceite a 210 °C durante 25 minutos.",
+      "Mezcla con la quinoa y aliña con limón, orégano y el aceite restante.",
+      "Agrega la palta al final."
+    ],
+    "note": "Puede prepararse con anticipación; incorpora la palta justo antes de servir."
   },
   {
     "id": 16,
-    "title": "Hummus de remolacha",
-    "category": "Snack",
-    "emoji": "🫓",
-    "description": "Cremoso, vibrante y perfecto para picar.",
-    "time": 10,
-    "servings": 6,
-    "difficulty": "Muy fácil",
-    "kcal": 165,
-    "protein": 6,
-    "carbs": 18,
-    "fat": 8,
-    "fiber": 5,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Sopa de porotos blancos y kale",
+    "categories": [
+      "Platos vegetales"
     ],
-    "allergens": "Sésamo.",
-    "storage": "4 días refrigerado.",
-    "tip": "Sírvelo con bastones de verdura para más fibra.",
+    "time": "35 min",
+    "servings": "5 porciones",
     "ingredients": [
-      "400 g de garbanzos cocidos",
-      "180 g de remolacha cocida",
-      "2 cdas de tahini",
-      "1 limón",
-      "1 diente de ajo",
+      "3 tazas de porotos blancos cocidos",
+      "3 tazas de kale picado",
+      "1 zanahoria",
+      "1 rama de apio",
+      "1 cebolla",
+      "2 tomates",
       "1 cda de aceite de oliva",
-      "Comino y sal"
+      "5 tazas de agua o caldo sin azúcar",
+      "Tomillo y pimienta"
     ],
     "steps": [
-      "Tritura todos los ingredientes hasta obtener una crema.",
-      "Ajusta textura con agua fría.",
-      "Sirve con aceite, semillas y crudités."
-    ]
+      "Sofríe cebolla, zanahoria y apio con aceite.",
+      "Añade tomate, porotos, agua y tomillo; cocina 20 minutos.",
+      "Incorpora kale y cocina 5 minutos más."
+    ],
+    "note": "Congela en porciones hasta 3 meses. Enfría rápidamente antes de refrigerar."
   },
   {
     "id": 17,
-    "title": "Bolitas de cacao y almendra",
-    "category": "Snack",
-    "emoji": "🍫",
-    "description": "Energía natural en un bocado.",
-    "time": 15,
-    "servings": 10,
-    "difficulty": "Muy fácil",
-    "kcal": 120,
-    "protein": 4,
-    "carbs": 14,
-    "fat": 7,
-    "fiber": 3,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Berenjenas rellenas de lentejas y nueces",
+    "categories": [
+      "Platos vegetales"
     ],
-    "allergens": "Frutos secos.",
-    "storage": "7 días refrigeradas o 2 meses congeladas.",
-    "tip": "Humedece las manos para formar las bolitas.",
+    "time": "50 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "150 g de dátiles sin hueso",
-      "100 g de almendras",
-      "25 g de cacao puro",
-      "2 cdas de coco rallado",
-      "1 pizca de sal",
-      "1-2 cdas de agua"
+      "2 berenjenas grandes",
+      "2 tazas de lentejas cocidas",
+      "1 taza de tomate picado",
+      "1/3 taza de nueces",
+      "1 cebolla pequeña",
+      "1 1/2 cdas de aceite de oliva",
+      "Pimentón dulce, orégano y pimienta"
     ],
     "steps": [
-      "Tritura almendras hasta obtener migas.",
-      "Añade dátiles, cacao, sal y agua; procesa.",
-      "Forma 10 bolitas y rebózalas en coco."
-    ]
+      "Hornea las berenjenas partidas a 200 °C por 25 minutos.",
+      "Retira parte de la pulpa y mézclala con cebolla salteada, lentejas, tomate y especias.",
+      "Rellena, añade nueces y hornea 12 minutos más."
+    ],
+    "note": "No requiere queso para lograr una superficie sabrosa y dorada."
   },
   {
     "id": 18,
-    "title": "Garbanzos crujientes al pimentón",
-    "category": "Snack",
-    "emoji": "🫘",
-    "description": "Un picoteo especiado, crujiente y nutritivo.",
-    "time": 35,
-    "servings": 4,
-    "difficulty": "Muy fácil",
-    "kcal": 185,
-    "protein": 8,
-    "carbs": 27,
-    "fat": 6,
-    "fiber": 7,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Pasta integral con pesto de palta",
+    "categories": [
+      "Platos vegetales"
     ],
-    "allergens": "Sin alérgenos principales.",
-    "storage": "2 días en recipiente sin cerrar del todo.",
-    "tip": "Seca muy bien los garbanzos antes de hornear.",
+    "time": "20 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "400 g de garbanzos cocidos",
+      "320 g de pasta integral",
+      "1 palta grande",
+      "1 taza de albahaca",
+      "1/3 taza de nueces",
+      "1 diente de ajo",
+      "1 limón",
       "1 cda de aceite de oliva",
-      "1 cdta de pimentón",
-      "1/2 cdta de comino",
-      "Ajo en polvo",
-      "Sal y pimienta"
+      "Tomates cherry y rúcula"
     ],
     "steps": [
-      "Calienta el horno a 200 °C y seca los garbanzos.",
-      "Mézclalos con aceite y especias.",
-      "Hornea 25-30 minutos, removiendo a mitad."
-    ]
+      "Cocina la pasta al dente y reserva 1/2 taza del agua.",
+      "Procesa palta, albahaca, nueces, ajo, limón y aceite.",
+      "Mezcla fuera del fuego con la pasta; ajusta con agua de cocción y agrega tomates y rúcula."
+    ],
+    "note": "Consume el mismo día para conservar el color y la frescura de la palta."
   },
   {
     "id": 19,
-    "title": "Manzanas asadas con yogur",
-    "category": "Postre",
-    "emoji": "🍎",
-    "description": "Aromáticas, cálidas y naturalmente dulces.",
-    "time": 30,
-    "servings": 4,
-    "difficulty": "Muy fácil",
-    "kcal": 210,
-    "protein": 8,
-    "carbs": 36,
-    "fat": 5,
-    "fiber": 6,
-    "tags": [
-      "Vegetariana",
-      "Sin gluten"
+    "title": "Ensalada de betarraga, naranja y nueces",
+    "categories": [
+      "Ensaladas y sopas"
     ],
-    "allergens": "Lácteos y frutos secos.",
-    "storage": "3 días refrigeradas.",
-    "tip": "Elige manzanas firmes para que mantengan textura.",
+    "time": "15 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "4 manzanas",
-      "2 cdtas de canela",
-      "30 g de nueces",
-      "2 cdtas de miel",
-      "300 g de yogur griego",
-      "1/2 limón"
+      "3 betarragas cocidas",
+      "2 naranjas",
+      "3 tazas de rúcula",
+      "1/3 taza de nueces",
+      "1 1/2 cdas de aceite de oliva",
+      "1 cda de jugo de limón",
+      "Pimienta"
     ],
     "steps": [
-      "Corta las manzanas y mezcla con limón y canela.",
-      "Hornea a 190 °C durante 22 minutos.",
-      "Sirve templadas con yogur, nueces y miel."
-    ]
+      "Corta la betarraga y pela las naranjas a vivo.",
+      "Distribuye con rúcula y nueces.",
+      "Aliña con aceite, limón y pimienta justo antes de servir."
+    ],
+    "note": "La betarraga puede teñir superficies; usa una tabla lavable."
   },
   {
     "id": 20,
-    "title": "Mousse rápida de chocolate",
-    "category": "Postre",
-    "emoji": "🍮",
-    "description": "Intensa y sedosa, hecha con aguacate.",
-    "time": 10,
-    "servings": 4,
-    "difficulty": "Muy fácil",
-    "kcal": 245,
-    "protein": 5,
-    "carbs": 27,
-    "fat": 16,
-    "fiber": 8,
-    "tags": [
-      "Vegana",
-      "Sin gluten"
+    "title": "Crema de brócoli, zapallo y jengibre",
+    "categories": [
+      "Ensaladas y sopas"
     ],
-    "allergens": "Puede contener frutos secos.",
-    "storage": "2 días refrigerada.",
-    "tip": "Usa aguacates maduros y cacao de buena calidad.",
+    "time": "30 min",
+    "servings": "4 porciones",
     "ingredients": [
-      "2 aguacates maduros",
-      "45 g de cacao puro",
-      "60 ml de bebida vegetal",
-      "3 cdas de sirope de arce",
-      "1 cdta de vainilla",
-      "1 pizca de sal",
-      "Frambuesas para servir"
+      "1 brócoli",
+      "3 tazas de zapallo",
+      "1 cebolla",
+      "1 cm de jengibre",
+      "1 cda de aceite de oliva",
+      "4 tazas de agua",
+      "Pimienta y nuez moscada"
     ],
     "steps": [
-      "Tritura todos los ingredientes hasta que quede sedoso.",
-      "Ajusta dulzor y textura al gusto.",
-      "Refrigera 30 minutos y sirve con frambuesas."
-    ]
+      "Sofríe cebolla y jengibre con aceite.",
+      "Añade zapallo, agua y cocina 15 minutos; incorpora el brócoli y cocina 6 minutos.",
+      "Procesa hasta quedar sedosa y sazona."
+    ],
+    "note": "No sobrecocines el brócoli para mantener un color fresco."
+  },
+  {
+    "id": 21,
+    "title": "Crema de zanahoria, camote y cúrcuma",
+    "categories": [
+      "Ensaladas y sopas"
+    ],
+    "time": "35 min",
+    "servings": "4 porciones",
+    "ingredients": [
+      "5 zanahorias",
+      "1 camote mediano",
+      "1 cebolla",
+      "1 cdta de cúrcuma",
+      "1 pizca de pimienta negra",
+      "1 cda de aceite de oliva",
+      "4 tazas de agua",
+      "Jugo de 1/2 naranja"
+    ],
+    "steps": [
+      "Sofríe cebolla, cúrcuma y pimienta en aceite por 1 minuto.",
+      "Añade zanahoria, camote y agua; cocina hasta ablandar.",
+      "Procesa y termina con jugo de naranja fuera del fuego."
+    ],
+    "note": "La fruta aporta un contraste ácido y dulce sin azúcar añadida."
+  },
+  {
+    "id": 22,
+    "title": "Hummus de coliflor y sésamo",
+    "categories": [
+      "Salsas y acompañamientos"
+    ],
+    "time": "30 min",
+    "servings": "6 porciones",
+    "ingredients": [
+      "1 coliflor pequeña",
+      "2 cdas de tahini",
+      "1 diente de ajo asado",
+      "1 limón",
+      "1 cda de aceite de oliva",
+      "1/2 cdta de comino",
+      "Pimienta y pizca de sal"
+    ],
+    "steps": [
+      "Asa la coliflor a 210 °C por 22 minutos.",
+      "Procesa con tahini, ajo, limón, comino y aceite.",
+      "Ajusta con agua fría hasta lograr una textura cremosa."
+    ],
+    "note": "Sirve con bastones de verduras o pan integral de masa madre."
+  },
+  {
+    "id": 23,
+    "title": "Tapenade de aceitunas y alcaparras",
+    "categories": [
+      "Salsas y acompañamientos"
+    ],
+    "time": "10 min",
+    "servings": "8 porciones",
+    "ingredients": [
+      "1 taza de aceitunas negras y verdes sin carozo",
+      "1 cda de alcaparras enjuagadas",
+      "1 diente de ajo pequeño",
+      "1 cda de aceite de oliva",
+      "1 cda de jugo de limón",
+      "Tomillo y pimienta"
+    ],
+    "steps": [
+      "Enjuaga aceitunas y alcaparras si deseas reducir sodio.",
+      "Pulsa todos los ingredientes hasta obtener una pasta rústica.",
+      "Refrigera en un frasco limpio hasta 4 días."
+    ],
+    "note": "Úsala en pequeñas cantidades por su concentración de sodio."
+  },
+  {
+    "id": 24,
+    "title": "Aderezo cremoso de palta y hierbas",
+    "categories": [
+      "Salsas y acompañamientos"
+    ],
+    "time": "8 min",
+    "servings": "6 porciones",
+    "ingredients": [
+      "1 palta",
+      "1 taza de perejil y cilantro",
+      "1/2 taza de yogur natural o agua",
+      "1 limón",
+      "1 cda de aceite de oliva",
+      "1 diente de ajo pequeño",
+      "Pimienta"
+    ],
+    "steps": [
+      "Procesa todos los ingredientes hasta que estén cremosos.",
+      "Ajusta la consistencia con agua fría.",
+      "Guarda en recipiente hermético con film en contacto hasta 24 horas."
+    ],
+    "note": "Funciona como aderezo para ensaladas, bowls o pescado horneado."
+  },
+  {
+    "id": 25,
+    "title": "Tónico tibio de cúrcuma, jengibre y pimienta",
+    "categories": [
+      "Bebidas"
+    ],
+    "time": "8 min",
+    "servings": "2 tazas pequeñas",
+    "ingredients": [
+      "2 tazas de agua",
+      "2 cm de jengibre en láminas",
+      "1/2 cdta de cúrcuma",
+      "1 pizca pequeña de pimienta negra",
+      "1 cdta de aceite de oliva",
+      "Jugo de 1/2 limón"
+    ],
+    "steps": [
+      "Hierve suavemente agua, jengibre y cúrcuma durante 5 minutos.",
+      "Retira del fuego, añade pimienta, aceite y limón.",
+      "Bate antes de servir para dispersar el aceite."
+    ],
+    "note": "No sustituye un tratamiento. Si usas anticoagulantes, tienes cálculos biliares, reflujo intenso o embarazo, consulta antes de tomar preparados concentrados con frecuencia."
+  },
+  {
+    "id": 26,
+    "title": "Chucrut de repollo morado",
+    "categories": [
+      "Fermentados"
+    ],
+    "time": "25 min + 1 a 3 semanas",
+    "servings": "1 frasco",
+    "ingredients": [
+      "1 kg de repollo morado limpio",
+      "20 g de sal no yodada (2% del peso)",
+      "1 frasco de vidrio de 1,5 L",
+      "Peso de fermentación o frasco pequeño"
+    ],
+    "steps": [
+      "Pesa repollo y sal con precisión. Masajea 8 a 10 minutos hasta liberar líquido.",
+      "Empaca en frasco limpio, elimina bolsas de aire y mantén todo bajo su propia salmuera.",
+      "Fermenta a 18-22 °C, liberando gas si el frasco lo requiere. Refrigera cuando tenga acidez agradable."
+    ],
+    "note": "Descarta si aparece moho velloso, colores extraños u olor pútrido. Una película blanca plana requiere criterio experto; ante duda, descarta."
+  },
+  {
+    "id": 27,
+    "title": "Repollo fermentado chileno al merkén",
+    "categories": [
+      "Fermentados"
+    ],
+    "time": "35 min + 5 a 10 días",
+    "servings": "1 frasco",
+    "ingredients": [
+      "1 kg de repollo blanco corriente",
+      "20 g de sal no yodada (2% del peso)",
+      "1 zanahoria mediana rallada",
+      "3 cebollines picados",
+      "2 dientes de ajo rallados",
+      "2 cm de jengibre rallado",
+      "1/2 a 1 cdta de merkén sin sal añadida",
+      "1 frasco de vidrio de 1,5 L"
+    ],
+    "steps": [
+      "Corta el repollo fino, añade la sal y masajea 8 a 10 minutos hasta que libere líquido.",
+      "Mezcla con zanahoria, cebollín, ajo, jengibre y merkén.",
+      "Empaca en el frasco, elimina el aire y mantén todo bajo la salmuera con un peso limpio.",
+      "Fermenta 5 a 10 días a 18-22 °C; libera gas si corresponde y refrigera cuando alcance una acidez agradable."
+    ],
+    "note": "Usa merkén sin sal para mantener la proporción calculada. Descarta si aparece moho velloso, color extraño, textura viscosa u olor pútrido."
+  },
+  {
+    "id": 28,
+    "title": "Zanahorias fermentadas con jengibre",
+    "categories": [
+      "Fermentados"
+    ],
+    "time": "20 min + 5 a 10 días",
+    "servings": "1 frasco",
+    "ingredients": [
+      "600 g de zanahorias en bastones",
+      "750 ml de agua sin cloro",
+      "15 g de sal no yodada (salmuera al 2%)",
+      "2 cm de jengibre",
+      "1 frasco de 1 L",
+      "Peso de fermentación"
+    ],
+    "steps": [
+      "Disuelve la sal completamente en el agua.",
+      "Pon zanahoria y jengibre en el frasco; cubre con salmuera y mantén todo sumergido.",
+      "Fermenta 5 a 10 días a 18-22 °C; prueba con utensilio limpio y refrigera al alcanzar la acidez deseada."
+    ],
+    "note": "No reduzcas la sal de forma improvisada. Descarta ante moho, viscosidad inusual u olor desagradable."
+  },
+  {
+    "id": 29,
+    "title": "Ciabatta integral de masa madre",
+    "categories": [
+      "Panes fermentados"
+    ],
+    "time": "18 a 24 h",
+    "servings": "2 panes",
+    "ingredients": [
+      "300 g de harina panadera",
+      "200 g de harina integral fina",
+      "400 g de agua",
+      "100 g de masa madre activa al 100%",
+      "10 g de sal",
+      "1 cda de aceite de oliva para la bandeja"
+    ],
+    "steps": [
+      "Mezcla harinas y 370 g de agua; reposa 30 minutos. Incorpora masa madre, sal y agua restante.",
+      "Haz 4 series de pliegues cada 30 minutos. Fermenta hasta aumentar 50-70% y refrigera 8 a 14 horas.",
+      "Vuelca sobre superficie enharinada, divide sin desgasificar y reposa 45 minutos.",
+      "Hornea con vapor a 240 °C por 18 minutos y luego a 220 °C por 10 a 14 minutos. Enfría completamente."
+    ],
+    "note": "La fermentación no convierte el pan en un alimento libre de gluten. La proporción integral mejora fibra, pero la textura será menos abierta que una ciabatta blanca."
+  },
+  {
+    "id": 30,
+    "title": "Kombucha casera de baja dulzura residual",
+    "categories": [
+      "Fermentados",
+      "Bebidas"
+    ],
+    "time": "20 min + 7 a 14 días",
+    "servings": "1 litro",
+    "ingredients": [
+      "1 L de agua segura",
+      "8 g de té negro o verde",
+      "70 g de azúcar blanca (sustrato indispensable)",
+      "100 ml de kombucha iniciadora sin sabor",
+      "1 SCOBY comercial",
+      "Tiras o medidor de pH apto para alimentos",
+      "Frasco y tela limpios"
+    ],
+    "steps": [
+      "Infusiona el té en agua caliente, disuelve el azúcar y enfría completamente.",
+      "Añade iniciador y SCOBY con utensilios limpios. Cubre con tela tupida.",
+      "Fermenta 7 a 14 días lejos del sol. Verifica pH: debe estar entre 2,5 y 4,2; refrigera al alcanzar sabor ácido agradable.",
+      "Envasa y refrigera. Evita una segunda fermentación cerrada si no controlas presión y seguridad."
+    ],
+    "note": "Excepción técnica: la kombucha no puede elaborarse sin azúcar; el cultivo la utiliza, pero puede quedar azúcar residual y producir trazas de alcohol. Descarta cualquier lote con moho. No se aconseja kombucha casera en embarazo, niñez, inmunosupresión o enfermedad hepática sin indicación profesional."
   }
 ]
